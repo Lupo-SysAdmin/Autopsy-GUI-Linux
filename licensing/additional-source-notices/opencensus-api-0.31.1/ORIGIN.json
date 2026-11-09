@@ -1,0 +1,8 @@
+{
+  "file": "opencensus-api-0.31.1-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1-sources.jar",
+  "sha256": "6748d57aaae81995514ad3e2fb11a95aa88e158b3f93450288018eaccf31e86b",
+  "coordinates": "io.opencensus:opencensus-api:0.31.1",
+  "notice_headers": 4,
+  "notice_files": []
+}

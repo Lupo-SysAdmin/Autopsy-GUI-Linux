@@ -1,0 +1,18 @@
+Source files: io/opencensus/common/Function.java, io/opencensus/common/Timestamp.java, io/opencensus/common/OpenCensusLibraryInformation.java, io/opencensus/common/Duration.java, io/opencensus/trace/BlankSpan.java, io/opencensus/trace/TraceComponent.java, io/opencensus/trace/NetworkEvent.java, io/opencensus/trace/Status.java, io/opencensus/trace/Span.java, io/opencensus/trace/ContextHandle.java, io/opencensus/trace/SpanContext.java, io/opencensus/trace/AttributeValue.java, io/opencensus/trace/ContextManager.java, io/opencensus/trace/Tracer.java, io/opencensus/trace/Tracing.java, io/opencensus/trace/unsafe/ContextManagerImpl.java, io/opencensus/trace/unsafe/ContextHandleImpl.java, io/opencensus/trace/unsafe/ContextHandleUtils.java, io/opencensus/trace/TraceId.java, io/opencensus/internal/Provider.java, io/opencensus/internal/StringUtils.java, io/opencensus/stats/ViewManager.java, io/opencensus/stats/ViewData.java, io/opencensus/stats/Stats.java, io/opencensus/stats/View.java, io/opencensus/stats/Measurement.java
+
+/*
+ * Copyright 2016-17, OpenCensus Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+

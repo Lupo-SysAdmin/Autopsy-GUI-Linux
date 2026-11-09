@@ -1,8 +1,20 @@
 # Validation / Validación
 
+## 4.23.1-3 — validated core workflow / Flujo principal validado
+
+**American English.** All three disposable distributions passed the complete suite again on November 9, 2026 UTC, including the new ZIP, encrypted ZIP, and encrypted 7z tests under the private Java 21 runtime. SevenZip also passed all 17 upstream test groups, serially. [Results and candidate package hash](qa/2026-11-09-rev3.json), [logs and package inventories](qa/2026-11-09-rev3.logs.tar.gz), and the [tested runtime manifest](qa/4.23.1-3-tested-runtime.json) identify the evidence. The final packaging adds documentation/notices; application/runtime contents, permissions, and symlink targets are checked against that manifest. The TSK JAR is compared member by member because adding the JNI changes ZIP timestamps between builds; its classes, native code, notices and member list are identical. Only `build-info.json` build metadata is excluded. Source/notice materials are documented in the [redistribution record](REDISTRIBUTION-REVIEW.md).
+
+Stable scope means the tested amd64 case/ingest/search/report and package lifecycle workflow. It does not mean every optional module or evidence format is supported. Container GUI tests use Xvfb; complete distro desktops, native Wayland, large cases, and upstream database-version migrations remain outside that matrix. Remote Actions and host installation are separate checks; consult the release notes for their final outcomes.
+
+**Español latinoamericano.** Las tres distribuciones desechables aprobaron nuevamente toda la suite el 9 de noviembre de 2026 UTC, incluidas las nuevas pruebas ZIP, ZIP cifrado y 7z cifrado con Java 21 privado. SevenZip aprobó sus 17 grupos de pruebas ejecutados secuencialmente. Los enlaces anteriores identifican resultados, hash del paquete candidato, registros, paquetes y manifiesto de archivos probados. El empaquetado final agrega documentación y avisos; se verifican contenidos de ejecución, permisos y destinos de enlaces. El JAR de TSK se compara entrada por entrada: cambian las fechas del contenedor ZIP al agregar JNI, pero sus clases, código nativo, avisos y lista de entradas son idénticos. Solo se excluyen los metadatos de `build-info.json`.
+
+El alcance estable es el flujo amd64 probado de casos, ingestión, búsqueda, informes y ciclo de instalación. No implica que todos los módulos o formatos funcionen. Las pruebas gráficas usan Xvfb; escritorios completos, Wayland nativo, casos grandes y migraciones entre versiones de la base de datos quedan fuera de esa matriz. Las notas de la release registran por separado los resultados finales de Actions y la instalación en el host.
+
+## Earlier validation / Validación anterior
+
 ## American English
 
-Test session: November 8, 2026 (America/New_York), November 9 UTC. **Experimental; stable binary publication remains blocked by the open [redistribution review](REDISTRIBUTION-REVIEW.md).**
+Test session: November 8, 2026 (America/New_York), November 9 UTC. The earlier revisions below were experimental; revision 3 results are recorded first.
 
 Revision `4.23.1-1`, SHA-256 `a9f107bc7065519c3ff4d3c9bb45463a68f73f4584e7acda7393c67e128ac307`, passed clean APT installation, private JNI, exact EXT4/NTFS/E01 recovery, case reopening, GUI startup, legacy-command coexistence, a synthetic revision upgrade, removal, purge, reinstall, and case preservation on all three official container images:
 
@@ -27,7 +39,7 @@ Known upstream limitations include Windows-only modules, portions of Recent Acti
 
 ## Español latinoamericano
 
-Sesión del 8 de noviembre de 2026 (Nueva York), 9 de noviembre UTC. **Versión experimental; la publicación binaria estable sigue bloqueada por la [revisión de redistribución](REDISTRIBUTION-REVIEW.md).**
+Sesión del 8 de noviembre de 2026 (Nueva York), 9 de noviembre UTC. Las revisiones anteriores eran experimentales; los resultados de la revisión 3 aparecen al inicio.
 
 La revisión `4.23.1-1`, identificada por el hash anterior, aprobó instalación APT real, JNI, recuperación exacta de EXT4/NTFS/E01, reapertura de casos, arranque gráfico, convivencia con Autopsy antiguo, actualización sintética, eliminación, purga, reinstalación y conservación de casos en Ubuntu 24.04.5, Kali 2026.3 y Parrot 7.4. La tabla identifica las imágenes exactas.
 

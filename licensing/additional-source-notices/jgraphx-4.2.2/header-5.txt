@@ -1,0 +1,5 @@
+Source files: com/mxgraph/io/mxGdCodec.java, com/mxgraph/shape/mxStencil.java, com/mxgraph/shape/mxStencilShape.java
+
+/**
+ * Copyright (c) 2010-2012, JGraph Ltd
+ */

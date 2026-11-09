@@ -1,0 +1,18 @@
+Source files: io/grpc/internal/Stream.java, io/grpc/internal/ReadableBuffer.java, io/grpc/internal/ForwardingReadableBuffer.java, io/grpc/internal/AbstractReadableBuffer.java, io/grpc/internal/ClientTransportFactory.java, io/grpc/internal/ServerImpl.java, io/grpc/internal/ServerTransportListener.java, io/grpc/internal/CompositeReadableBuffer.java, io/grpc/internal/AbstractClientStream.java, io/grpc/internal/ServerStreamListener.java, io/grpc/internal/ReadableBuffers.java, io/grpc/internal/ClientCallImpl.java, io/grpc/internal/TransportFrameUtil.java, io/grpc/internal/AbstractStream.java, io/grpc/internal/ClientStreamListener.java, io/grpc/internal/Http2ClientStreamTransportState.java, io/grpc/internal/AbstractServerStream.java, io/grpc/internal/ServerStream.java, io/grpc/internal/MessageDeframer.java, io/grpc/internal/ServerListener.java, io/grpc/internal/SharedResourceHolder.java, io/grpc/internal/StreamListener.java, io/grpc/internal/MessageFramer.java, io/grpc/internal/GrpcUtil.java, io/grpc/internal/SerializingExecutor.java, io/grpc/internal/ClientStream.java
+
+/*
+ * Copyright 2014 The gRPC Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+

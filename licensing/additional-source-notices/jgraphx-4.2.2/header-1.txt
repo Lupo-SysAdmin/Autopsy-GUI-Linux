@@ -1,0 +1,5 @@
+Source files: com/mxgraph/io/mxCodec.java, com/mxgraph/analysis/mxGraphStructure.java, com/mxgraph/analysis/mxGraphGenerator.java
+
+/**
+ * Copyright (c) 2012, JGraph Ltd
+ */

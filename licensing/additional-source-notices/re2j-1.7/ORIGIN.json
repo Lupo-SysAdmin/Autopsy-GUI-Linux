@@ -1,0 +1,8 @@
+{
+  "file": "re2j-1.7-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/google/re2j/re2j/1.7/re2j-1.7-sources.jar",
+  "sha256": "ddc3b47bb1e556ac4c0d02c9d8ff18f3260198b76b720567a70eed0a03d3fed6",
+  "coordinates": "com.google.re2j:re2j:1.7",
+  "notice_headers": 2,
+  "notice_files": []
+}

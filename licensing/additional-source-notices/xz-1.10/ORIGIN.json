@@ -1,0 +1,8 @@
+{
+  "file": "xz-1.10-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/tukaani/xz/1.10/xz-1.10-sources.jar",
+  "sha256": "6ac7a5478e952a23fe1f354efa70303f94b2331b7a6279c923f4dbe0ac6e352c",
+  "coordinates": "org.tukaani:xz:1.10",
+  "notice_headers": 1,
+  "notice_files": []
+}

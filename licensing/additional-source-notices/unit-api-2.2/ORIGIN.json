@@ -1,0 +1,8 @@
+{
+  "file": "unit-api-2.2-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/javax/measure/unit-api/2.2/unit-api-2.2-sources.jar",
+  "sha256": "61423f0fcb16319c189d14da7f71dc6711d68ff949ac90c9bb1301c530b490fe",
+  "coordinates": "javax.measure:unit-api:2.2",
+  "notice_headers": 1,
+  "notice_files": []
+}

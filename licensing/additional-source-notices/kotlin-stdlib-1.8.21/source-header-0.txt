@@ -1,0 +1,7 @@
+Source files: kotlin/Annotations.kt, kotlin/jvm/internal/KTypeBase.kt, kotlin/jvm/internal/TypeReference.kt, kotlin/reflect/KAnnotatedElement.kt, kotlin/reflect/KClass.kt, kotlin/reflect/KClassesImpl.kt, kotlin/reflect/KType.kt, kotlin/reflect/TypesJVM.kt, kotlin/Array.kt, kotlin/Enum.kt
+
+/*
+ * Copyright 2010-2019 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

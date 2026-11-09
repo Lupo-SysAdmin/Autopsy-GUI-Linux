@@ -1,0 +1,8 @@
+{
+  "file": "bcutil-jdk18on-1.78.1-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.78.1/bcutil-jdk18on-1.78.1-sources.jar",
+  "sha256": "667b6334ff25c4303d3b1af02599f8547fcc37d0d55393bcb17de4f179c78baa",
+  "coordinates": "org.bouncycastle:bcutil-jdk18on:1.78.1",
+  "notice_headers": 0,
+  "notice_files": []
+}

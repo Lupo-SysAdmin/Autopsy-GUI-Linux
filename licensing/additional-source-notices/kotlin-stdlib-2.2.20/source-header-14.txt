@@ -1,0 +1,7 @@
+Source files: commonMain/kotlin/Comparator.kt, commonMain/kotlin/ExceptionsH.kt, commonMain/kotlin/KotlinH.kt, commonMain/kotlin/collections/AbstractMutableCollection.kt, commonMain/kotlin/collections/AbstractMutableList.kt, commonMain/kotlin/collections/AbstractMutableMap.kt, commonMain/kotlin/collections/AbstractMutableSet.kt, commonMain/kotlin/annotations/Inference.kt, commonMain/kotlin/annotations/Throws.kt, commonMain/kotlin/coroutines/Continuation.kt, commonMain/kotlin/coroutines/CoroutineContextImpl.kt, commonMain/kotlin/coroutines/cancellation/CancellationExceptionH.kt, commonMain/kotlin/properties/Interfaces.kt, commonMain/kotlin/text/CharCategory.kt, commonMain/kotlin/util/DeepRecursive.kt, commonMain/kotlin/util/KotlinVersion.kt, jvmMain/kotlin/collections/AbstractMutableCollection.kt, jvmMain/kotlin/collections/AbstractMutableList.kt, jvmMain/kotlin/collections/AbstractMutableMap.kt, jvmMain/kotlin/collections/AbstractMutableSet.kt, jvmMain/kotlin/coroutines/cancellation/CancellationException.kt, jvmMain/kotlin/Throws.kt, jvmMain/kotlin/jvm/internal/AdaptedFunctionReference.java, jvmMain/kotlin/jvm/internal/FunInterfaceConstructorReference.java, jvmMain/kotlin/jvm/internal/FunctionAdapter.java, jvmMain/kotlin/jvm/internal/TypeParameterReference.kt, jvmMain/jdk7/kotlin/io/path/ExperimentalPathApi.kt
+
+/*
+ * Copyright 2010-2020 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

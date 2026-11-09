@@ -1,0 +1,7 @@
+Source files: kotlin/jvm/internal/SourceDebugExtension.kt, kotlin/concurrent/Volatile.kt, kotlin/enums/EnumEntriesSerializationProxy.kt, kotlin/time/MonoTimeSource.kt, kotlin/Char.kt, jdk7/kotlin/io/path/CopyActionContext.kt, jdk7/kotlin/io/path/CopyActionResult.kt, jdk7/kotlin/io/path/FileVisitorBuilder.kt, jdk7/kotlin/io/path/OnErrorResult.kt, jdk7/kotlin/io/path/PathWalkOption.kt
+
+/*
+ * Copyright 2010-2022 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

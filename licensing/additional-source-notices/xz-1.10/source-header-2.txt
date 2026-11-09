@@ -1,0 +1,7 @@
+Source files: org/tukaani/xz/check/CRC64.java, META-INF/versions/9/org/tukaani/xz/check/CRC64.java
+
+// SPDX-License-Identifier: 0BSD
+// SPDX-FileCopyrightText: The XZ for Java authors and contributors
+// SPDX-FileContributor: Brett Okken <brett.okken.os@gmail.com>
+// SPDX-FileContributor: Lasse Collin <lasse.collin@tukaani.org>
+

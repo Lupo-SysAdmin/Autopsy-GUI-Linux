@@ -1,0 +1,9 @@
+Source files: kotlin/collections/PrimitiveIterators.kt, kotlin/ranges/PrimitiveRanges.kt, kotlin/ranges/ProgressionIterators.kt, kotlin/ranges/Progressions.kt, kotlin/UByte.kt, kotlin/UByteArray.kt, kotlin/UInt.kt, kotlin/UIntArray.kt, kotlin/UIntRange.kt, kotlin/ULong.kt, kotlin/ULongArray.kt, kotlin/ULongRange.kt, kotlin/UShort.kt, kotlin/UShortArray.kt
+
+/*
+ * Copyright 2010-2023 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+
+// Auto-generated file. DO NOT EDIT!
+

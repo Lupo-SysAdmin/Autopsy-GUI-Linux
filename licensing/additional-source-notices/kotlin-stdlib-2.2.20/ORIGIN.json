@@ -1,0 +1,8 @@
+{
+  "file": "kotlin-stdlib-2.2.20-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20-sources.jar",
+  "sha256": "27b9b8672ef33ae9c345b3e57d39b705560e7eca9ca2bf6485f323f612276c26",
+  "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+  "notice_headers": 3,
+  "notice_files": []
+}

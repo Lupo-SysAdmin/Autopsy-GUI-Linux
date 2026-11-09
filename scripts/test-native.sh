@@ -1,5 +1,6 @@
 #!/bin/bash
 set -euo pipefail
+export LANG=C.UTF-8 LC_ALL=C.UTF-8
 cd "$(dirname "$0")/.."
 app=${AUTOPSY_GUI_HOME:-"$PWD/build/package/opt/autopsy-gui"}
 mkdir -p build/test-classes

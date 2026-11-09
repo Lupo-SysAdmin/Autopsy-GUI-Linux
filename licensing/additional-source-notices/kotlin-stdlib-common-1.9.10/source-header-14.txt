@@ -1,0 +1,7 @@
+Source files: kotlin/Comparator.kt, kotlin/ExceptionsH.kt, kotlin/KotlinH.kt, kotlin/collections/AbstractMutableCollection.kt, kotlin/collections/AbstractMutableList.kt, kotlin/collections/AbstractMutableMap.kt, kotlin/collections/AbstractMutableSet.kt, kotlin/annotations/Inference.kt, kotlin/annotations/Throws.kt, kotlin/coroutines/Continuation.kt, kotlin/coroutines/CoroutineContextImpl.kt, kotlin/coroutines/cancellation/CancellationExceptionH.kt, kotlin/properties/Interfaces.kt, kotlin/reflect/KClass.kt, kotlin/reflect/KType.kt, kotlin/reflect/KTypeProjection.kt, kotlin/text/CharCategory.kt, kotlin/util/DeepRecursive.kt, kotlin/util/KotlinVersion.kt
+
+/*
+ * Copyright 2010-2020 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

@@ -1,0 +1,5 @@
+Source files: com/mxgraph/swing/mxGraphComponent.java
+
+/**
+ * Copyright (c) 2009-2010, Gaudenz Alder, David Benson
+ */

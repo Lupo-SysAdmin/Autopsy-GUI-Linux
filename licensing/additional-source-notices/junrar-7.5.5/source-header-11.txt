@@ -1,0 +1,16 @@
+Source files: com/github/junrar/unpack/decode/CodeType.java
+
+/*
+ * Copyright (c) 2007 innoSysTec (R) GmbH, Germany. All rights reserved.
+ * Original author: Edmund Wagner
+ * Creation date: 01.06.2007
+ *
+ * Source: $HeadURL$
+ * Last changed: $LastChangedDate$
+ *
+ * Here some html entities which can be used for escaping javadoc tags:
+ * "&":  "&#038;" or "&amp;"
+ * "<":  "&#060;" or "&lt;"
+ * ">":  "&#062;" or "&gt;"
+ * "@":  "&#064;"
+ */

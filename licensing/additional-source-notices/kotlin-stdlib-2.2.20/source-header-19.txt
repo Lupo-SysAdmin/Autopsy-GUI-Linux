@@ -1,0 +1,7 @@
+Source files: commonMain/kotlin/collections/CollectionsH.kt, commonMain/kotlin/annotations/ReturnValue.kt, commonMain/kotlin/contextParameters/ExperimentalContextParameters.kt, commonMain/kotlin/experimental/ExpectRefinement.kt, commonMain/kotlin/internal/serializationUtil.kt, commonMain/kotlin/time/Clocks.kt, jvmMain/kotlin/internal/serializationUtil.kt, jvmMain/kotlin/jvm/internal/BoxingConstructorMarker.kt
+
+/*
+ * Copyright 2010-2025 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

@@ -1,0 +1,5 @@
+Source files: com/mxgraph/swing/handler/mxVertexHandler.java, com/mxgraph/swing/handler/mxRubberband.java, com/mxgraph/swing/handler/mxEdgeHandler.java, com/mxgraph/swing/handler/mxMovePreview.java, com/mxgraph/swing/handler/mxCellHandler.java, com/mxgraph/swing/handler/mxCellMarker.java
+
+/**
+ * Copyright (c) 2008-2012, JGraph Ltd
+ */

@@ -1,0 +1,8 @@
+{
+  "file": "protobuf-java-3.25.5-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5-sources.jar",
+  "sha256": "d686e802329e42954e72e9b3b148b67eeb4f6f3ed327abc4508b79fda4937c3b",
+  "coordinates": "com.google.protobuf:protobuf-java:3.25.5",
+  "notice_headers": 0,
+  "notice_files": []
+}

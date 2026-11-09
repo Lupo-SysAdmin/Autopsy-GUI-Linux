@@ -1,0 +1,7 @@
+Source files: commonMain/generated/_OneToManyTitlecaseMappings.kt, commonMain/kotlin/io/encoding/ExperimentalEncodingApi.kt, commonMain/kotlin/text/HexExtensions.kt, commonMain/kotlin/text/HexFormat.kt, commonMain/kotlin/text/UHexExtensions.kt, commonMain/kotlin/uuid/ExperimentalUuidApi.kt, commonMain/kotlin/UnsignedCommon.kt, jvmMain/kotlin/enums/EnumEntriesJVM.kt, jvmMain/kotlin/internal/PlatformImplementations.kt, jvmMain/kotlin/io/encoding/Base64JVM.kt, jvmMain/kotlin/text/CharCategoryJVM.kt, jvmMain/kotlin/text/CharDirectionality.kt
+
+/*
+ * Copyright 2010-2023 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

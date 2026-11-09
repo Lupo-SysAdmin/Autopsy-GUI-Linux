@@ -1,0 +1,8 @@
+{
+  "file": "asm-9.7.1-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1-sources.jar",
+  "sha256": "22e9507b0c494daaedb33b8148c30cd618c6dacc3992be8b50eaaafeb6a8ba8d",
+  "coordinates": "org.ow2.asm:asm:9.7.1",
+  "notice_headers": 0,
+  "notice_files": []
+}

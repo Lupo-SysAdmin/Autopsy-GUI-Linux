@@ -1,0 +1,5 @@
+Source files: com/mxgraph/analysis/mxDistanceCostFunction.java
+
+/**
+ * Copyright (c) 2007-2017, JGraph Ltd
+ */

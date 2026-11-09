@@ -1,0 +1,8 @@
+{
+  "file": "parso-2.0.14-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/epam/parso/2.0.14/parso-2.0.14-sources.jar",
+  "sha256": "a2f3a9e52dc8a710311c571db43e44bea63454aabe6ca1aae6504a435b782606",
+  "coordinates": "com.epam:parso:2.0.14",
+  "notice_headers": 2,
+  "notice_files": []
+}

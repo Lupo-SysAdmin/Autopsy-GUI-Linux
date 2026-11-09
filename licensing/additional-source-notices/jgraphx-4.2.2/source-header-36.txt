@@ -1,0 +1,10 @@
+Source files: com/mxgraph/view/mxGraphSelectionModel.java
+
+/*
+ * Copyright (c) 2001-2005, Gaudenz Alder
+ * 
+ * All rights reserved.
+ * 
+ * See LICENSE file for license details. If you are unable to locate
+ * this file please contact info (at) jgraph (dot) com.
+ */

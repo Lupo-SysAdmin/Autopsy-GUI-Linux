@@ -23,5 +23,45 @@
     "url": "https://raw.githubusercontent.com/williballenthin/Rejistry/14f70735a401e65a41eed7d4ac7de1803199993f/NOTICE.TXT",
     "sha256": "e29bedc3cebfd8d8819de62b977978a2dcc41889157a5cb355f0edb2aaa78984",
     "path": "licensing/additional/williballenthin/Rejistry/NOTICE.TXT"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/adobe/XMP-Toolkit-SDK/7093513bd3caaad29da01db0f275d88a39d6bcc2/LICENSE",
+    "sha256": "99678ec755c91c9400a989fef7c6e1bd2907aff40eef4cf855c111bbd282c1d4",
+    "path": "licensing/additional/adobe/XMP-Toolkit-SDK/LICENSE"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jgraph/jgraphx/832e3b179c2137e04def16731e72e16f8d076eda/license.txt",
+    "sha256": "77d2a7f5bf8b1aa5dcc774335e6f6e380db67b18c0547312819c739d5bf08bd8",
+    "path": "licensing/additional/jgraph/jgraphx/license.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sejda-pdf/webp-imageio/4e67d6ce87fade83cfaa1a428a9a702b14502a88/LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "path": "licensing/additional/sejda-pdf/webp-imageio/LICENSE"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sejda-pdf/webp-imageio/4e67d6ce87fade83cfaa1a428a9a702b14502a88/NOTICE",
+    "sha256": "de43bc30d8ff03deb069433e1907b841f56996e3774b394351736c8a0b702ab0",
+    "path": "licensing/additional/sejda-pdf/webp-imageio/NOTICE"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/opencv/opencv/59975db6a415c53b8e6f9bcb4e1ee5d3c4579ebf/LICENSE",
+    "sha256": "46e42877dfc3ac65769292cb4dc1a04b204ad9e40859a390f4c035d6179fbcc4",
+    "path": "licensing/additional/opencv/opencv/LICENSE"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/webmproject/libwebp/6a2209aa366a4648c9d74d3434457d704f0a8fe1/COPYING",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+    "path": "licensing/additional/webmproject/libwebp/COPYING"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tukaani-project/xz-java/0f5ee02ca950b5e7cdadf89f8c314388092ad64c/COPYING",
+    "sha256": "1e77ef26cee5216d6531e49cbf2f6111a0270dc7b322fc65477063c5aff88766",
+    "path": "licensing/additional/tukaani-project/xz-java/COPYING"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/boringssl/49f0329110a1d93a5febc2bceceedc655d995420/LICENSE",
+    "sha256": "60bd7c54856bf9387221bde5ab55d516d7cea15870d0fed69406bcd1c8ec7c9d",
+    "correspondence": "BoringSSL-Version and org.conscrypt.boringssl.version in conscrypt-openjdk-uber-2.5.2.jar"
   }
 ]

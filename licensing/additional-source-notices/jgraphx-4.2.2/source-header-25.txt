@@ -1,0 +1,5 @@
+Source files: com/mxgraph/util/png/mxPngTextDecoder.java, com/mxgraph/shape/mxCurveLabelShape.java
+
+/**
+ * Copyright (c) 2010, David Benson, Gaudenz Alder
+ */

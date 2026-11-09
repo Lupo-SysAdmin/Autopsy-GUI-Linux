@@ -1,0 +1,10 @@
+Source files: jvmMain/kotlin/util/Exceptions.kt
+
+/*
+ * Copyright 2010-2020 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+
+@file:kotlin.jvm.JvmMultifileClass
+@file:kotlin.jvm.JvmName("ExceptionsKt")
+@file:Suppress("PLATFORM_CLASS_MAPPED_TO_KOTLIN")

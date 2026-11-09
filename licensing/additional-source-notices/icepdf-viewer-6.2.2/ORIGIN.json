@@ -1,0 +1,8 @@
+{
+  "file": "icepdf-viewer-6.2.2-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/icepdf/os/icepdf-viewer/6.2.2/icepdf-viewer-6.2.2-sources.jar",
+  "sha256": "d2f0f799fe540f594000dafc556f2d61c9413e3742194f83f07097bfaea3dec6",
+  "coordinates": "org.icepdf.os:icepdf-viewer:6.2.2",
+  "notice_headers": 4,
+  "notice_files": []
+}

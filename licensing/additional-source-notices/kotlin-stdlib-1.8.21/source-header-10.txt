@@ -1,0 +1,7 @@
+Source files: kotlin/jvm/internal/RepeatableContainer.java, kotlin/jvm/internal/SerializedIr.kt, kotlin/CharCodeJVM.kt, kotlin/collections/builders/ListBuilder.kt, kotlin/collections/builders/MapBuilder.kt, kotlin/collections/builders/SetBuilder.kt, kotlin/time/DurationJvm.kt, jdk7/kotlin/io/path/PathTreeWalk.kt
+
+/*
+ * Copyright 2010-2021 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

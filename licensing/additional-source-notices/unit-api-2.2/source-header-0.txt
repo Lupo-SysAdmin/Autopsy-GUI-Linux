@@ -1,0 +1,31 @@
+Source files: javax/measure/BinaryPrefix.java, javax/measure/Dimension.java, javax/measure/format/MeasurementParseException.java, javax/measure/format/QuantityFormat.java, javax/measure/format/UnitFormat.java, javax/measure/IncommensurableException.java, javax/measure/MeasurementError.java, javax/measure/MetricPrefix.java, javax/measure/Prefix.java, javax/measure/quantity/Acceleration.java, javax/measure/quantity/AmountOfSubstance.java, javax/measure/quantity/Angle.java, javax/measure/quantity/Area.java, javax/measure/quantity/CatalyticActivity.java, javax/measure/quantity/Dimensionless.java, javax/measure/quantity/ElectricCapacitance.java, javax/measure/quantity/ElectricCharge.java, javax/measure/quantity/ElectricConductance.java, javax/measure/quantity/ElectricCurrent.java, javax/measure/quantity/ElectricInductance.java, javax/measure/quantity/ElectricPotential.java, javax/measure/quantity/ElectricResistance.java, javax/measure/quantity/Energy.java, javax/measure/quantity/Force.java, javax/measure/quantity/Frequency.java, javax/measure/quantity/Illuminance.java, javax/measure/quantity/Length.java, javax/measure/quantity/LuminousFlux.java, javax/measure/quantity/LuminousIntensity.java, javax/measure/quantity/MagneticFlux.java, javax/measure/quantity/MagneticFluxDensity.java, javax/measure/quantity/Mass.java, javax/measure/quantity/Power.java, javax/measure/quantity/Pressure.java, javax/measure/quantity/RadiationDoseAbsorbed.java, javax/measure/quantity/RadiationDoseEffective.java, javax/measure/quantity/Radioactivity.java, javax/measure/quantity/SolidAngle.java, javax/measure/quantity/Speed.java, javax/measure/quantity/Temperature.java, javax/measure/quantity/Time.java, javax/measure/quantity/Volume.java, javax/measure/Quantity.java, javax/measure/spi/FormatService.java, javax/measure/spi/QuantityFactory.java, javax/measure/spi/ServiceProvider.java, javax/measure/spi/SystemOfUnits.java, javax/measure/spi/SystemOfUnitsService.java, javax/measure/UnconvertibleException.java, javax/measure/UnitConverter.java
+
+/*
+ * Units of Measurement API
+ * Copyright (c) 2014-2023, Jean-Marie Dautelle, Werner Keil, Otavio Santana.
+ *
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions
+ *    and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of JSR-385 nor the names of its contributors may be used to endorse or promote products
+ *    derived from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */

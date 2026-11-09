@@ -1,0 +1,5 @@
+Source files: com/mxgraph/util/mxSpline1D.java, com/mxgraph/util/mxSpline.java
+
+/**
+ * Copyright (c) 2010, David Benson
+ */

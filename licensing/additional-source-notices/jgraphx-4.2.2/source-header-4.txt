@@ -1,0 +1,5 @@
+Source files: com/mxgraph/io/mxStylesheetCodec.java
+
+/**
+ * Copyright (c) 2006-2013, JGraph Ltd
+ */

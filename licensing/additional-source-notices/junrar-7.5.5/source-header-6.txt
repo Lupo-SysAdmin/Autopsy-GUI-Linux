@@ -1,0 +1,19 @@
+Source files: com/github/junrar/unpack/ppm/PPMContext.java, com/github/junrar/unpack/ppm/ModelPPM.java, com/github/junrar/unpack/ppm/SEE2Context.java, com/github/junrar/unpack/ppm/RangeCoder.java, com/github/junrar/unpack/ppm/SubAllocator.java, com/github/junrar/unpack/Unpack.java, com/github/junrar/unpack/vm/VMPreparedCommand.java, com/github/junrar/unpack/vm/VMPreparedProgram.java, com/github/junrar/unpack/vm/RarVM.java, com/github/junrar/unpack/vm/VMCommands.java, com/github/junrar/unpack/vm/VMStandardFilters.java, com/github/junrar/unpack/vm/VMPreparedOperand.java, com/github/junrar/unpack/vm/VMFlags.java, com/github/junrar/unpack/vm/BitInput.java, com/github/junrar/unpack/vm/VMOpType.java, com/github/junrar/unpack/ComprDataIO.java
+
+/*
+ * Copyright (c) 2007 innoSysTec (R) GmbH, Germany. All rights reserved.
+ * Original author: Edmund Wagner
+ * Creation date: 31.05.2007
+ *
+ * Source: $HeadURL$
+ * Last changed: $LastChangedDate$
+ *
+ * the unrar licence applies to all junrar source and binary distributions
+ * you are not allowed to use this source to re-create the RAR compression algorithm
+ *
+ * Here some html entities which can be used for escaping javadoc tags:
+ * "&":  "&#038;" or "&amp;"
+ * "<":  "&#060;" or "&lt;"
+ * ">":  "&#062;" or "&gt;"
+ * "@":  "&#064;"
+ */

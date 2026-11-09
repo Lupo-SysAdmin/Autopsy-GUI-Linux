@@ -1,0 +1,5 @@
+Source files: com/mxgraph/swing/handler/mxConnectPreview.java
+
+/**
+ * Copyright (c) 2008-2010, Gaudenz Alder, David Benson
+ */

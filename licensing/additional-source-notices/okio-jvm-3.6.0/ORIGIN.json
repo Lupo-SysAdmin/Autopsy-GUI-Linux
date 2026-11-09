@@ -1,0 +1,8 @@
+{
+  "file": "okio-jvm-3.6.0-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0-sources.jar",
+  "sha256": "870a42a7b468af8fd24d67b7b62e5861aab398c56f15a80b10642e7001564e2f",
+  "coordinates": "com.squareup.okio:okio-jvm:3.6.0",
+  "notice_headers": 0,
+  "notice_files": []
+}

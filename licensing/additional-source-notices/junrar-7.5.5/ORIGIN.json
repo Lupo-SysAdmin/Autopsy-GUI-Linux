@@ -1,0 +1,8 @@
+{
+  "file": "junrar-7.5.5-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/github/junrar/junrar/7.5.5/junrar-7.5.5-sources.jar",
+  "sha256": "be07759d30e0216dcb8f3abba2388b6991694cea934fd3bb386ad7cc18898a19",
+  "coordinates": "com.github.junrar:junrar:7.5.5",
+  "notice_headers": 20,
+  "notice_files": []
+}

@@ -1,0 +1,7 @@
+Source files: kotlin/JsAnnotationsH.kt, kotlin/SequencesH.kt, kotlin/ioH.kt, kotlin/collections/ArrayList.kt, kotlin/collections/CollectionsH.kt, kotlin/collections/HashMap.kt, kotlin/collections/HashSet.kt, kotlin/collections/LinkedHashMap.kt, kotlin/collections/LinkedHashSet.kt, kotlin/annotations/Multiplatform.kt, kotlin/annotations/WasExperimental.kt, kotlin/collections/AbstractIterator.kt, kotlin/collections/IndexedValue.kt, kotlin/collections/Sequence.kt, kotlin/collections/SlidingWindow.kt, kotlin/contracts/ContractBuilder.kt, kotlin/contracts/Effect.kt, kotlin/coroutines/ContinuationInterceptor.kt, kotlin/coroutines/CoroutineContext.kt, kotlin/coroutines/CoroutinesH.kt, kotlin/coroutines/CoroutinesIntrinsicsH.kt, kotlin/experimental/bitwiseOperations.kt, kotlin/experimental/inferenceMarker.kt, kotlin/internal/Annotations.kt, kotlin/internal/progressionUtil.kt, kotlin/properties/Delegates.kt, kotlin/properties/ObservableProperty.kt, kotlin/random/XorWowRandom.kt, kotlin/reflect/KCallable.kt, kotlin/reflect/KFunction.kt, kotlin/text/Typography.kt, kotlin/text/regex/MatchResult.kt, kotlin/util/HashCode.kt, kotlin/util/Suspend.kt
+
+/*
+ * Copyright 2010-2018 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

@@ -1,0 +1,10 @@
+Source files: com/mxgraph/swing/handler/mxSelectionCellsHandler.java
+
+/**
+ * Copyright (c) 2008, Gaudenz Alder
+ * 
+ * Known issue: Drag image size depends on the initial position and may sometimes
+ * not align with the grid when dragging. This is because the rounding of the width
+ * and height at the initial position may be different than that at the current
+ * position as the left and bottom side of the shape must align to the grid lines.
+ */

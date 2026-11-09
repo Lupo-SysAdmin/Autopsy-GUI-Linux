@@ -1,0 +1,5 @@
+Source files: com/mxgraph/util/mxCurve.java
+
+/**
+ * Copyright (c) 2009-2012, JGraph Ltd
+ */

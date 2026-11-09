@@ -1,0 +1,8 @@
+{
+  "file": "grpc-core-1.68.1-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.68.1/grpc-core-1.68.1-sources.jar",
+  "sha256": "748bdcae0330f1ef46f5d72543e80584972d5f7aec5549f63209b0d334d91ba0",
+  "coordinates": "io.grpc:grpc-core:1.68.1",
+  "notice_headers": 11,
+  "notice_files": []
+}

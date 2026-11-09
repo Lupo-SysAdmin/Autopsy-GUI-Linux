@@ -1,0 +1,5 @@
+Source files: com/mxgraph/io/mxCellCodec.java, com/mxgraph/io/mxObjectCodec.java, com/mxgraph/io/mxChildChangeCodec.java, com/mxgraph/io/mxTerminalChangeCodec.java, com/mxgraph/io/mxGenericChangeCodec.java
+
+/**
+ * Copyright (c) 2006, Gaudenz Alder
+ */

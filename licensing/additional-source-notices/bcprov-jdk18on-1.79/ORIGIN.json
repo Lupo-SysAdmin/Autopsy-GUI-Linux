@@ -1,0 +1,10 @@
+{
+  "file": "bcprov-jdk18on-1.79-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79/bcprov-jdk18on-1.79-sources.jar",
+  "sha256": "ddab0541b2490e3013cac96179c1c4a8a50685d9b39f29ce5b233b310061ed23",
+  "coordinates": "org.bouncycastle:bcprov-jdk18on:1.79",
+  "notice_headers": 1,
+  "notice_files": [
+    "org/bouncycastle/LICENSE.java"
+  ]
+}

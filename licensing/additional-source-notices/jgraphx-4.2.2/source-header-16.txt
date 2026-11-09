@@ -1,0 +1,5 @@
+Source files: com/mxgraph/canvas/mxGraphics2DCanvas.java, com/mxgraph/util/mxXmlUtils.java, com/mxgraph/util/mxCellRenderer.java, com/mxgraph/util/mxConstants.java, com/mxgraph/util/mxHtmlColor.java, com/mxgraph/util/mxStyleUtils.java, com/mxgraph/util/mxUtils.java, com/mxgraph/util/mxDomUtils.java, com/mxgraph/swing/util/mxSwingConstants.java, com/mxgraph/shape/mxRectangleShape.java
+
+/**
+ * Copyright (c) 2007-2012, JGraph Ltd
+ */

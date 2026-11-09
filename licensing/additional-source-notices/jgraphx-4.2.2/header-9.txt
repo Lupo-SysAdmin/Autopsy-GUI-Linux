@@ -1,0 +1,5 @@
+Source files: com/mxgraph/layout/hierarchical/model/mxGraphAbstractHierarchyCell.java
+
+/**
+ * Copyright (c) 2005-2010, David Benson, Gaudenz Alder
+ */

@@ -1,0 +1,8 @@
+Source files: com/google/re2j/Machine.java, com/google/re2j/Utils.java, com/google/re2j/PatternSyntaxException.java, com/google/re2j/Compiler.java, com/google/re2j/Matcher.java, com/google/re2j/Regexp.java, com/google/re2j/Pattern.java, com/google/re2j/UnicodeTables.java, com/google/re2j/Simplify.java, com/google/re2j/Prog.java, com/google/re2j/CharGroup.java, com/google/re2j/Parser.java, com/google/re2j/MachineInput.java, com/google/re2j/RE2.java, com/google/re2j/CharClass.java, com/google/re2j/Unicode.java, com/google/re2j/Inst.java, com/google/re2j/Characters.java, com/google/re2j/super/com/google/re2j/Characters.java
+
+/*
+ * Copyright (c) 2020 The Go Authors. All rights reserved.
+ *
+ * Use of this source code is governed by a BSD-style
+ * license that can be found in the LICENSE file.
+ */

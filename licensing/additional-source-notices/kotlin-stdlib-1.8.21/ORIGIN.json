@@ -1,0 +1,8 @@
+{
+  "file": "kotlin-stdlib-1.8.21-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21-sources.jar",
+  "sha256": "e60342da94ab52368157917916775b7f2f03bbd728aad3c9e86c3f02a93dbeec",
+  "coordinates": "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+  "notice_headers": 3,
+  "notice_files": []
+}

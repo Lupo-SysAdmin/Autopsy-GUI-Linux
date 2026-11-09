@@ -1,0 +1,7 @@
+Source files: kotlin/AutoCloseable.kt, kotlin/annotations/NativeConcurrentAnnotations.kt, kotlin/annotations/OptIn.kt, kotlin/concurrent/Volatile.kt, kotlin/experimental/ExperimentalObjCName.kt, kotlin/experimental/ExperimentalObjCRefinement.kt, kotlin/io/encoding/Base64.kt, kotlin/time/TimeSource.kt, kotlin/time/TimeSources.kt, kotlin/time/longSaturatedMath.kt, kotlin/time/measureTime.kt
+
+/*
+ * Copyright 2010-2022 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

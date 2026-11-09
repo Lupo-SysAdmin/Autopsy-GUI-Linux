@@ -1,0 +1,6 @@
+Source files: com/mxgraph/costfunction/mxDoubleValCostFunction.java
+
+/**
+ * Copyright (c) 2012, JGraph Ltd
+ * Returns the value of a cell, which is assumed a Double
+ */

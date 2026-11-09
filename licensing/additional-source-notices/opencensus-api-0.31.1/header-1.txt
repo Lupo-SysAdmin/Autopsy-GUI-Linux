@@ -1,0 +1,17 @@
+Source files: io/opencensus/metrics/Metrics.java, io/opencensus/metrics/LabelKey.java, io/opencensus/metrics/DoubleGauge.java, io/opencensus/metrics/MetricsComponent.java, io/opencensus/metrics/export/MetricProducer.java, io/opencensus/metrics/export/Point.java, io/opencensus/metrics/export/TimeSeries.java, io/opencensus/metrics/export/Metric.java, io/opencensus/metrics/export/Value.java, io/opencensus/metrics/export/MetricDescriptor.java, io/opencensus/metrics/export/ExportComponent.java, io/opencensus/metrics/export/Summary.java, io/opencensus/metrics/export/MetricProducerManager.java, io/opencensus/metrics/export/Distribution.java, io/opencensus/metrics/LongGauge.java, io/opencensus/metrics/package-info.java, io/opencensus/metrics/LabelValue.java, io/opencensus/metrics/DerivedDoubleGauge.java, io/opencensus/metrics/MetricRegistry.java, io/opencensus/metrics/DerivedLongGauge.java, io/opencensus/resource/package-info.java, io/opencensus/resource/Resource.java, io/opencensus/common/ToDoubleFunction.java, io/opencensus/common/ToLongFunction.java, io/opencensus/common/ServerStats.java, io/opencensus/common/ServerStatsDeserializationException.java, io/opencensus/common/package-info.java, io/opencensus/common/ServerStatsEncoding.java, io/opencensus/common/ServerStatsFieldEnums.java, io/opencensus/trace/MessageEvent.java, io/opencensus/trace/BaseMessageEvent.java, io/opencensus/trace/BigendianEncoding.java, io/opencensus/trace/Tracestate.java, io/opencensus/trace/package-info.java, io/opencensus/trace/internal/BaseMessageEventUtils.java, io/opencensus/internal/Utils.java, io/opencensus/internal/DefaultVisibilityForTesting.java, io/opencensus/stats/package-info.java
+
+/*
+ * Copyright 2018, OpenCensus Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */

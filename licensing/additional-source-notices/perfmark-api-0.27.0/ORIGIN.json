@@ -1,0 +1,8 @@
+{
+  "file": "perfmark-api-0.27.0-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0-sources.jar",
+  "sha256": "311551ab29cf51e5a8abee6a019e88dee47d1ea71deb9fcd3649db9c51b237bc",
+  "coordinates": "io.perfmark:perfmark-api:0.27.0",
+  "notice_headers": 2,
+  "notice_files": []
+}

@@ -1,0 +1,18 @@
+Source files: org/icepdf/core/io/ByteDoubleArrayInputStream.java, org/icepdf/core/pobjects/ImageUtility.java, org/icepdf/core/pobjects/Thumbnail.java, org/icepdf/core/pobjects/acroform/ButtonFieldDictionary.java, org/icepdf/core/pobjects/acroform/ChoiceFieldDictionary.java, org/icepdf/core/pobjects/acroform/FieldDictionary.java, org/icepdf/core/pobjects/acroform/FieldDictionaryFactory.java, org/icepdf/core/pobjects/acroform/SignatureFieldDictionary.java, org/icepdf/core/pobjects/actions/FormAction.java, org/icepdf/core/pobjects/actions/ResetFormAction.java, org/icepdf/core/pobjects/annotations/AbstractWidgetAnnotation.java, org/icepdf/core/pobjects/annotations/ButtonWidgetAnnotation.java, org/icepdf/core/pobjects/annotations/ChoiceWidgetAnnotation.java, org/icepdf/core/pobjects/annotations/TextWidgetAnnotation.java, org/icepdf/core/pobjects/annotations/WidgetAnnotation.java, org/icepdf/core/pobjects/graphics/CalGray.java, org/icepdf/core/pobjects/security/CryptFilter.java, org/icepdf/core/pobjects/security/CryptFilterEntry.java
+
+/*
+ * Copyright 2006-2017 ICEsoft Technologies Canada Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ *
+ *        http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an "AS
+ * IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+

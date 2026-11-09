@@ -1,0 +1,5 @@
+Source files: com/mxgraph/shape/mxDefaultTextShape.java, com/mxgraph/shape/mxHtmlTextShape.java, com/mxgraph/shape/mxITextShape.java, com/mxgraph/shape/mxConnectorShape.java, com/mxgraph/shape/mxBasicShape.java
+
+/**
+ * Copyright (c) 2010, Gaudenz Alder, David Benson
+ */

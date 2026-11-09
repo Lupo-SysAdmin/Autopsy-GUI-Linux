@@ -1,0 +1,5 @@
+Source files: com/mxgraph/canvas/mxICanvas.java, com/mxgraph/canvas/mxImageCanvas.java, com/mxgraph/util/mxUndoableEdit.java, com/mxgraph/util/mxLine.java, com/mxgraph/util/mxUndoManager.java, com/mxgraph/util/mxRectangle.java, com/mxgraph/util/mxPoint.java, com/mxgraph/swing/view/mxInteractiveCanvas.java, com/mxgraph/view/mxPerimeter.java, com/mxgraph/view/mxGraphView.java, com/mxgraph/shape/mxImageShape.java
+
+/**
+ * Copyright (c) 2007-2010, Gaudenz Alder, David Benson
+ */

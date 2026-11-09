@@ -1,0 +1,7 @@
+Source files: kotlin/JvmAnnotationsH.kt, kotlin/TextH.kt, kotlin/CharCode.kt, kotlin/annotations/NativeAnnotations.kt, kotlin/comparisons/compareTo.kt, kotlin/random/Random.kt, kotlin/random/URandom.kt, kotlin/time/Duration.kt, kotlin/UMath.kt, kotlin/UProgressionUtil.kt
+
+/*
+ * Copyright 2010-2021 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

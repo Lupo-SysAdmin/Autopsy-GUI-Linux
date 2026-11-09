@@ -1,0 +1,8 @@
+Source files: com/google/re2j/Utils.java, com/google/re2j/PatternSyntaxException.java, com/google/re2j/Matcher.java, com/google/re2j/Pattern.java, com/google/re2j/Characters.java, com/google/re2j/super/com/google/re2j/Characters.java
+
+/*
+ * Copyright (c) 2020 The Go Authors. All rights reserved.
+ *
+ * Use of this source code is governed by a BSD-style
+ * license that can be found in the LICENSE file.
+ */

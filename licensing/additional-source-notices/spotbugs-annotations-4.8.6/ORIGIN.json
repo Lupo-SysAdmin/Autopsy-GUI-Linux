@@ -1,0 +1,8 @@
+{
+  "file": "spotbugs-annotations-4.8.6-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/4.8.6/spotbugs-annotations-4.8.6-sources.jar",
+  "sha256": "b5d0110b70b9c44915f2c3375d1b700acb6d409152baf70030787d17a684469b",
+  "coordinates": "com.github.spotbugs:spotbugs-annotations:4.8.6",
+  "notice_headers": 7,
+  "notice_files": []
+}

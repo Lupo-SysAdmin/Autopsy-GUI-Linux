@@ -181,7 +181,8 @@
       "version": "3",
       "relativePath": null
     },
-    "scm": {}
+    "scm": {},
+    "review_note": "MIT copyright and permission in publisher source headers; licensing/isorelax and source manifest."
   },
   {
     "group": "net.java.dev.msv",
@@ -1254,7 +1255,18 @@
     "scm": {
       "tag": "3.0.0-rc1"
     },
-    "resolution_error": "no element found: line 1, column 0"
+    "effective_licenses": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+        "distribution": "repo"
+      }
+    ],
+    "license_pom_chain": [
+      "https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/3.0.0/tika-core-3.0.0.pom",
+      "https://repo.maven.apache.org/maven2/org/apache/tika/tika-parent/3.0.0/tika-parent-3.0.0.pom",
+      "https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom"
+    ]
   },
   {
     "group": "com.google.api",
@@ -2246,7 +2258,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/pff/java-libpst/0.9.5-SNAPSHOT/java-libpst-0.9.5-SNAPSHOT.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Snapshot not in Maven Central; publisher license/notice texts preserved in licensing/additional."
   },
   {
     "group": "org.eclipse.jetty.ee10.websocket",
@@ -3224,7 +3237,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/core/76.1/core-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -3235,7 +3249,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/collate/76.1/collate-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -3246,7 +3261,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/currdata/76.1/currdata-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -3257,7 +3273,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/langdata/76.1/langdata-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -3268,7 +3285,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/regiondata/76.1/regiondata-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -3279,7 +3297,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/translit/76.1/translit-76.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "org.codehaus.woodstox",
@@ -5151,7 +5170,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/williballenthin/Rejistry/1.1-SNAPSHOT/Rejistry-1.1-SNAPSHOT.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Snapshot not in Maven Central; publisher license/notice texts preserved in licensing/additional."
   },
   {
     "group": "jakarta.servlet",
@@ -7581,7 +7601,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/collate/75.1/collate-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -7592,7 +7613,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/core/75.1/core-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -7603,7 +7625,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/currdata/75.1/currdata-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -7643,7 +7666,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/langdata/75.1/langdata-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -7654,7 +7678,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/regiondata/75.1/regiondata-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "com.ibm.icu",
@@ -7665,7 +7690,8 @@
     ],
     "pom_url": "https://repo.maven.apache.org/maven2/com/ibm/icu/translit/75.1/translit-75.1.pom",
     "error": "HTTP Error 404: Not Found",
-    "resolution_error": "HTTP Error 404: Not Found"
+    "resolution_error": "HTTP Error 404: Not Found",
+    "review_note": "Internal ICU module coordinates; see retained Unicode notices in enclosing icu4j/Jython JAR."
   },
   {
     "group": "commons-io",
@@ -12549,7 +12575,8 @@
       "relativePath": "../../hadoop-project"
     },
     "scm": {},
-    "resolution_error": "not well-formed (invalid token): line 1942, column 11"
+    "resolution_error": "not well-formed (invalid token): line 1919, column 11",
+    "review_note": "Maven build tag Xlint:-unchecked is rejected by the XML parser. Apache-2.0 license and original notices are retained in the enclosing Hadoop JAR; malformed build metadata is not a missing license."
   },
   {
     "group": "org.eclipse.jetty.http2",
@@ -13057,7 +13084,8 @@
       "relativePath": "../../hadoop-project"
     },
     "scm": {},
-    "resolution_error": "not well-formed (invalid token): line 1942, column 11"
+    "resolution_error": "not well-formed (invalid token): line 1919, column 11",
+    "review_note": "Maven build tag Xlint:-unchecked is rejected by the XML parser. Apache-2.0 license and original notices are retained in the enclosing Hadoop JAR; malformed build metadata is not a missing license."
   },
   {
     "group": "org.apache.commons",
@@ -13109,7 +13137,8 @@
       "relativePath": "../../hadoop-project-dist"
     },
     "scm": {},
-    "resolution_error": "not well-formed (invalid token): line 1942, column 11"
+    "resolution_error": "not well-formed (invalid token): line 1919, column 11",
+    "review_note": "Maven build tag Xlint:-unchecked is rejected by the XML parser. Apache-2.0 license and original notices are retained in the enclosing Hadoop JAR; malformed build metadata is not a missing license."
   },
   {
     "group": "io.netty",
@@ -13724,7 +13753,8 @@
       "relativePath": "../../hadoop-project-dist"
     },
     "scm": {},
-    "resolution_error": "not well-formed (invalid token): line 1942, column 11"
+    "resolution_error": "not well-formed (invalid token): line 1919, column 11",
+    "review_note": "Maven build tag Xlint:-unchecked is rejected by the XML parser. Apache-2.0 license and original notices are retained in the enclosing Hadoop JAR; malformed build metadata is not a missing license."
   },
   {
     "group": "com.fasterxml.jackson.dataformat",

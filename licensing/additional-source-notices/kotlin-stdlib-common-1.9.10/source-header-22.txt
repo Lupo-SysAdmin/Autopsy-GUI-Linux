@@ -1,0 +1,7 @@
+Source files: kotlin/collections/ArrayDeque.kt, kotlin/collections/UArraySorting.kt, kotlin/ranges/Range.kt, kotlin/reflect/KClassifier.kt, kotlin/reflect/KTypeParameter.kt, kotlin/reflect/KVariance.kt, kotlin/reflect/typeOf.kt, kotlin/text/CharacterCodingException.kt, kotlin/time/ExperimentalTime.kt
+
+/*
+ * Copyright 2010-2019 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

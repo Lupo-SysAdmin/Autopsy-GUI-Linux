@@ -1,0 +1,5 @@
+Source files: com/mxgraph/layout/mxOrganicLayout.java
+
+/**
+ * Copyright (c) 2007-2013, JGraph Ltd
+ */

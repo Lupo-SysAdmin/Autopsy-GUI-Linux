@@ -1,0 +1,5 @@
+Source files: com/github/junrar/io/RandomAccessInputStream.java
+
+/*
+ * public domain as of http://rsbweb.nih.gov/ij/disclaimer.html
+ */

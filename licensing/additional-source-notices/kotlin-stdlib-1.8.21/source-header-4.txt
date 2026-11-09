@@ -1,0 +1,7 @@
+Source files: kotlin/Throws.kt, kotlin/jvm/internal/AdaptedFunctionReference.java, kotlin/jvm/internal/FunInterfaceConstructorReference.java, kotlin/jvm/internal/FunctionAdapter.java, kotlin/jvm/internal/TypeParameterReference.kt, kotlin/collections/AbstractMutableCollection.kt, kotlin/collections/AbstractMutableList.kt, kotlin/collections/AbstractMutableMap.kt, kotlin/collections/AbstractMutableSet.kt, kotlin/coroutines/cancellation/CancellationException.kt, kotlin/internal/PlatformImplementations.kt, kotlin/text/CharCategoryJVM.kt, kotlin/Collections.kt, jdk7/kotlin/io/path/ExperimentalPathApi.kt
+
+/*
+ * Copyright 2010-2020 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

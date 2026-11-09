@@ -1,0 +1,18 @@
+Source files: io/grpc/internal/PickSubchannelArgsImpl.java, io/grpc/internal/ManagedChannelImpl.java, io/grpc/internal/SharedResourcePool.java, io/grpc/internal/ConnectionClientTransport.java, io/grpc/internal/InUseStateAggregator.java, io/grpc/internal/ObjectPool.java, io/grpc/internal/AbstractSubchannel.java, io/grpc/internal/OobChannel.java, io/grpc/internal/ConnectivityStateManager.java, io/grpc/internal/SubchannelChannel.java, io/grpc/internal/FailingClientTransport.java, io/grpc/internal/ClientTransport.java, io/grpc/internal/MetadataApplierImpl.java, io/grpc/internal/StatsTraceContext.java, io/grpc/internal/LogExceptionRunnable.java, io/grpc/internal/ForwardingConnectionClientTransport.java, io/grpc/internal/KeepAliveManager.java, io/grpc/internal/InternalHandlerRegistry.java, io/grpc/internal/FailingClientStream.java, io/grpc/internal/ManagedClientTransport.java
+
+/*
+ * Copyright 2016 The gRPC Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+

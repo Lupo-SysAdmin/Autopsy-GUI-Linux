@@ -1,0 +1,8 @@
+{
+  "file": "annotations-26.1.0-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/26.1.0/annotations-26.1.0-sources.jar",
+  "sha256": "736d7e0e4bd95570ec8856cacffa3c34eb78ad8e45ca78c5df610d7347963b53",
+  "coordinates": "org.jetbrains:annotations:26.1.0",
+  "notice_headers": 1,
+  "notice_files": []
+}

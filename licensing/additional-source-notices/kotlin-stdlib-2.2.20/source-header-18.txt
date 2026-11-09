@@ -1,0 +1,7 @@
+Source files: commonMain/kotlin/TextH.kt, commonMain/kotlin/Annotation.kt, commonMain/kotlin/Any.kt, commonMain/kotlin/ArrayIntrinsics.kt, commonMain/kotlin/CharSequence.kt, commonMain/kotlin/Collections.kt, commonMain/kotlin/Comparable.kt, commonMain/kotlin/Enum.kt, commonMain/kotlin/Iterator.kt, commonMain/kotlin/Library.kt, commonMain/kotlin/Nothing.kt, commonMain/kotlin/Number.kt, commonMain/kotlin/String.kt, commonMain/kotlin/Throwable.kt, commonMain/kotlin/Unit.kt, commonMain/kotlin/annotations/ConsistentCopyVisibility.kt, commonMain/kotlin/time/Clock.kt, commonMain/kotlin/time/TimeSources.kt, commonMain/kotlin/time/measureTime.kt, commonMain/kotlin/util/Suspend.kt, jvmMain/kotlin/coroutines/jvm/internal/Spilling.kt, jvmMain/kotlin/time/InstantJvm.kt
+
+/*
+ * Copyright 2010-2024 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

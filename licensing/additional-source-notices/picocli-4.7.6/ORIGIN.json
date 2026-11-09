@@ -1,0 +1,8 @@
+{
+  "file": "picocli-4.7.6-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/info/picocli/picocli/4.7.6/picocli-4.7.6-sources.jar",
+  "sha256": "a6e1a96c8135795b705b9a10f76184a7d83bf201886ffc6e94e4997d4fe67fb6",
+  "coordinates": "info.picocli:picocli:4.7.6",
+  "notice_headers": 1,
+  "notice_files": []
+}

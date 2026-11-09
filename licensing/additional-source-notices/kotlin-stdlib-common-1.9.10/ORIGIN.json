@@ -1,0 +1,8 @@
+{
+  "file": "kotlin-stdlib-common-1.9.10-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10-sources.jar",
+  "sha256": "63f2b6dfd58e3e1c82a4b37a2e1743996ca182bf44dc2aadd264b8fb95fddcd3",
+  "coordinates": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+  "notice_headers": 0,
+  "notice_files": []
+}

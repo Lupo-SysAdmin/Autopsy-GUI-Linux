@@ -1,0 +1,17 @@
+Source files: org/icepdf/ri/common/AboutDialog.java, org/icepdf/ri/common/CurrentPageChanger.java, org/icepdf/ri/common/DocumentInformationDialog.java, org/icepdf/ri/common/FileExtensionUtils.java, org/icepdf/ri/common/KeyEventConstants.java, org/icepdf/ri/common/KeyListenerPageChanger.java, org/icepdf/ri/common/KeyListenerPageColumnChanger.java, org/icepdf/ri/common/MouseWheelCurrentPageListener.java, org/icepdf/ri/common/MouseWheelListenerPageChanger.java, org/icepdf/ri/common/MyAnnotationCallback.java, org/icepdf/ri/common/MyGUISecurityCallback.java, org/icepdf/ri/common/PageNumberTextFieldInputVerifier.java, org/icepdf/ri/common/PageNumberTextFieldKeyListener.java, org/icepdf/ri/common/PermissionsDialog.java, org/icepdf/ri/common/PrintHelper.java, org/icepdf/ri/common/PrinterTask.java, org/icepdf/ri/common/SwingController.java, org/icepdf/ri/common/SwingViewBuilder.java, org/icepdf/ri/common/SwingWorker.java, org/icepdf/ri/common/TextExtractionGlue.java, org/icepdf/ri/common/ViewModel.java, org/icepdf/ri/common/WindowManagementCallback.java, org/icepdf/ri/common/utility/annotation/LinkAnnotationPanel.java, org/icepdf/ri/common/utility/outline/OutlineItemTreeNode.java, org/icepdf/ri/common/utility/outline/OutlinesTree.java, org/icepdf/ri/common/utility/search/SearchPanel.java, org/icepdf/ri/common/views/AbstractDocumentView.java, org/icepdf/ri/common/views/AbstractDocumentViewModel.java, org/icepdf/ri/common/views/AnnotationCallback.java, org/icepdf/ri/common/views/Controller.java, org/icepdf/ri/common/views/DocumentView.java, org/icepdf/ri/common/views/DocumentViewController.java, org/icepdf/ri/common/views/DocumentViewControllerImpl.java, org/icepdf/ri/common/views/DocumentViewModel.java, org/icepdf/ri/common/views/DocumentViewModelImpl.java, org/icepdf/ri/common/views/OneColumnPageView.java, org/icepdf/ri/common/views/OnePageView.java, org/icepdf/ri/common/views/PageViewComponent.java, org/icepdf/ri/common/views/PageViewDecorator.java, org/icepdf/ri/common/views/TwoColumnPageView.java, org/icepdf/ri/common/views/TwoPageView.java, org/icepdf/ri/images/Images.java, org/icepdf/ri/util/BareBonesBrowserLaunch.java, org/icepdf/ri/util/FontPropertiesManager.java, org/icepdf/ri/util/Parse.java, org/icepdf/ri/util/PropertiesManager.java, org/icepdf/ri/util/Resources.java, org/icepdf/ri/util/SVG.java, org/icepdf/ri/util/SearchTextTask.java, org/icepdf/ri/util/StringResource.java, org/icepdf/ri/util/TextExtractionTask.java, org/icepdf/ri/util/URLAccess.java, org/icepdf/ri/viewer/Launcher.java, org/icepdf/ri/viewer/Main.java, org/icepdf/ri/viewer/SplashWindow.java, org/icepdf/ri/viewer/WindowManager.java
+
+/*
+ * Copyright 2006-2017 ICEsoft Technologies Canada Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ *
+ *        http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an "AS
+ * IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */

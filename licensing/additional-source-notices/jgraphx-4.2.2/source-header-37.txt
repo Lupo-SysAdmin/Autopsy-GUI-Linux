@@ -1,0 +1,6 @@
+Source files: com/mxgraph/reader/mxGraphViewImageReader.java
+
+/**
+ * Copyright (c) 2007, Gaudenz Alder
+ */
+

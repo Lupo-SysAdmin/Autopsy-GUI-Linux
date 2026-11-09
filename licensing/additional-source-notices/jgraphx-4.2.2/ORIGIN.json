@@ -1,0 +1,8 @@
+{
+  "file": "jgraphx-4.2.2-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/github/vlsi/mxgraph/jgraphx/4.2.2/jgraphx-4.2.2-sources.jar",
+  "sha256": "647646a6c5d0848e6698f73c2b4d4cf1839749526a2438034e89911c9e194e7a",
+  "coordinates": "com.github.vlsi.mxgraph:jgraphx:4.2.2",
+  "notice_headers": 40,
+  "notice_files": []
+}

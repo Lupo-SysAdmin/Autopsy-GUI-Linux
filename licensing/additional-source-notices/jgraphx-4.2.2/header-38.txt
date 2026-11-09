@@ -1,0 +1,5 @@
+Source files: com/mxgraph/shape/mxCurveShape.java
+
+/**
+ * Copyright (c) 2009-2010, David Benson, Gaudenz Alder
+ */

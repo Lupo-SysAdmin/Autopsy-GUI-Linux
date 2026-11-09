@@ -1,0 +1,8 @@
+{
+  "file": "api-common-2.41.0-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/com/google/api/api-common/2.41.0/api-common-2.41.0-sources.jar",
+  "sha256": "ab7d2c032296127dec01399b56d051051d16e66f03dd569bd28829defe82d69b",
+  "coordinates": "com.google.api:api-common:2.41.0",
+  "notice_headers": 4,
+  "notice_files": []
+}

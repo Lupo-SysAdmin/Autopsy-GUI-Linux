@@ -1,0 +1,22 @@
+Source files: com/google/re2j/RE2.java
+
+/*
+ * Copyright (c) 2020 The Go Authors. All rights reserved.
+ *
+ * Use of this source code is governed by a BSD-style
+ * license that can be found in the LICENSE file.
+ */
+// Original Go source here:
+// http://code.google.com/p/go/source/browse/src/pkg/regexp/regexp.go
+
+// Beware, submatch results may pin a large underlying String into
+// memory.  Consider creating explicit string copies if submatches are
+// long-lived and inputs are large.
+//
+// The JDK API supports incremental processing of the input without
+// necessarily consuming it all; we do not attempt to do so.
+
+// The Java API emphasises UTF-16 Strings, not UTF-8 byte[] as in Go, as
+// the primary input datatype, and the method names have been changed to
+// reflect this.
+

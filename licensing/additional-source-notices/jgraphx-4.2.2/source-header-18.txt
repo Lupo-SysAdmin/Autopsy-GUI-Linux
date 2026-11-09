@@ -1,0 +1,6 @@
+Source files: com/mxgraph/analysis/mxFibonacciHeap.java, com/mxgraph/analysis/mxConstantCostFunction.java
+
+/**
+ * Copyright (c) 2007-2017, Gaudenz Alder
+ * Copyright (c) 2007-2017, JGraph Ltd
+ */

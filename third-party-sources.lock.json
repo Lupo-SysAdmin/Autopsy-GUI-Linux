@@ -504,6 +504,18 @@
       "url": "https://codeload.github.com/jython/jython/tar.gz/3f256f4a79c828d8f1a3f3b95cad8c55ba1ddd0b",
       "commit": "3f256f4a79c828d8f1a3f3b95cad8c55ba1ddd0b",
       "sha256": "28821e4532001d8ac0b3ea15c53f3a7d5962cb46dfd3fa5ec957782e864eb5f5"
+    },
+    {
+      "file": "isorelax-20090621-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621-sources.jar",
+      "sha256": "099b6052151acb6a230ea7989a0166a389405ba56aae075c9518b82b7ccd65cb",
+      "license": "MIT; copyright and permission notices extracted from source headers"
+    },
+    {
+      "file": "spotbugs-4.8.6-source.tar.gz",
+      "url": "https://codeload.github.com/spotbugs/spotbugs/tar.gz/6cf7b2c64073b5aab180ec64890ab5b55808956c",
+      "commit": "6cf7b2c64073b5aab180ec64890ab5b55808956c",
+      "sha256": "7c8f04e55572e19d8a7ea0f8f0bb12702b815137e7cfb41a55169f8ac673864d"
     }
   ],
   "redistributables": [

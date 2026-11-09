@@ -1,0 +1,7 @@
+Source files: commonMain/kotlin/collections/ArrayDeque.kt, commonMain/kotlin/collections/UArraySorting.kt, commonMain/kotlin/reflect/typeOf.kt, commonMain/kotlin/text/CharacterCodingException.kt, commonMain/kotlin/time/ExperimentalTime.kt, jvmMain/kotlin/reflect/KAnnotatedElement.kt, jvmMain/kotlin/reflect/KClass.kt, jvmMain/kotlin/reflect/KClassesImpl.kt, jvmMain/kotlin/reflect/KType.kt, jvmMain/kotlin/reflect/TypesJVM.kt, jvmMain/kotlin/jvm/internal/KTypeBase.kt, jvmMain/kotlin/jvm/internal/TypeReference.kt
+
+/*
+ * Copyright 2010-2019 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

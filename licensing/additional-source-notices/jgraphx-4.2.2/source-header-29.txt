@@ -1,0 +1,5 @@
+Source files: com/mxgraph/util/mxImageBundle.java, com/mxgraph/util/mxResources.java
+
+/**
+ * Copyright (c) 2010, Gaudenz Alder
+ */

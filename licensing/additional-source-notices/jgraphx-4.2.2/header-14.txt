@@ -1,0 +1,5 @@
+Source files: com/mxgraph/layout/orthogonal/model/mxSegment.java, com/mxgraph/layout/orthogonal/model/mxPointSequence.java, com/mxgraph/layout/orthogonal/model/mxPointPair.java, com/mxgraph/swing/handler/mxKeyboardHandler.java, com/mxgraph/swing/handler/mxGraphTransferHandler.java, com/mxgraph/swing/handler/mxConnectionHandler.java, com/mxgraph/swing/handler/mxCellTracker.java, com/mxgraph/swing/handler/mxPanningHandler.java, com/mxgraph/swing/handler/mxElbowEdgeHandler.java, com/mxgraph/swing/mxGraphOutline.java, com/mxgraph/swing/util/mxGraphTransferable.java, com/mxgraph/swing/util/mxMouseAdapter.java, com/mxgraph/swing/util/mxGraphActions.java, com/mxgraph/swing/view/mxCellEditor.java, com/mxgraph/swing/view/mxICellEditor.java
+
+/**
+ * Copyright (c) 2008, Gaudenz Alder
+ */

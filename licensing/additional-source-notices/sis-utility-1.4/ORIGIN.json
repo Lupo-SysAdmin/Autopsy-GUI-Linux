@@ -1,0 +1,8 @@
+{
+  "file": "sis-utility-1.4-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/apache/sis/core/sis-utility/1.4/sis-utility-1.4-sources.jar",
+  "sha256": "2640387a92e68c54ded615ee69cf1dba41a41d39503bdb30f53c0e26c94907df",
+  "coordinates": "org.apache.sis.core:sis-utility:1.4",
+  "notice_headers": 1,
+  "notice_files": []
+}

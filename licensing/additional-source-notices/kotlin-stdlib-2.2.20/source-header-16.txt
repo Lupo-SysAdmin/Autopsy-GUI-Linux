@@ -1,0 +1,7 @@
+Source files: commonMain/kotlin/JvmAnnotationsH.kt, commonMain/kotlin/CharCode.kt, commonMain/kotlin/annotations/NativeAnnotations.kt, commonMain/kotlin/comparisons/compareTo.kt, commonMain/kotlin/random/Random.kt, commonMain/kotlin/random/URandom.kt, commonMain/kotlin/time/Duration.kt, commonMain/kotlin/UMath.kt, commonMain/kotlin/UProgressionUtil.kt, jvmMain/kotlin/CharCodeJVM.kt, jvmMain/kotlin/collections/builders/ListBuilder.kt, jvmMain/kotlin/collections/builders/MapBuilder.kt, jvmMain/kotlin/collections/builders/SetBuilder.kt, jvmMain/kotlin/time/DurationJvm.kt, jvmMain/kotlin/jvm/internal/RepeatableContainer.java, jvmMain/kotlin/jvm/internal/SerializedIr.kt, jvmMain/jdk7/kotlin/io/path/PathTreeWalk.kt
+
+/*
+ * Copyright 2010-2021 JetBrains s.r.o. and Kotlin Programming Language contributors.
+ * Use of this source code is governed by the Apache 2.0 license that can be found in the license/LICENSE.txt file.
+ */
+

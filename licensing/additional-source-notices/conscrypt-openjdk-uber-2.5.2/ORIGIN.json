@@ -1,0 +1,8 @@
+{
+  "file": "conscrypt-openjdk-uber-2.5.2-sources.jar",
+  "url": "https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2/conscrypt-openjdk-uber-2.5.2-sources.jar",
+  "sha256": "aa1d02e65351e202e83ece0614bce1022aa1da6e77313ef7c7663ab45fa9e3a5",
+  "coordinates": "org.conscrypt:conscrypt-openjdk-uber:2.5.2",
+  "notice_headers": 23,
+  "notice_files": []
+}
