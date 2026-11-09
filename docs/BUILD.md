@@ -35,3 +35,5 @@ GitHub Actions construye manualmente o al hacer push a `main`. Ejecuta la suite 
 `build-sevenzip.sh` builds the matching Sleuth Kit fork with the pinned build-only Temurin 8 JDK and C++98, runs all 17 upstream test groups serially, and verifies 76 identical Java classes. The application continues to run under Temurin 21. `bundle-third-party.py` verifies every source/redistributable hash. Embedded notices are collected without altering their text. See `third-party-sources.lock.json` and the redistribution record.
 
 `build-sevenzip.sh` compila el fork correspondiente con Temurin 8 fijado exclusivamente para construcción y C++98. Ejecuta los 17 grupos de pruebas de forma secuencial y verifica 76 clases Java idénticas. La aplicación sigue utilizando Temurin 21. `bundle-third-party.py` verifica los hashes de fuentes y redistribuibles; los avisos se conservan sin cambios.
+
+The build creates the SevenZip API JAR before parallel native/test compilation because upstream omits that dependency from the test target. La construcción genera primero el JAR de la API antes de compilar los demás objetivos en paralelo, porque upstream omite esa dependencia en las pruebas.

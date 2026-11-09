@@ -12,6 +12,8 @@ if [[ ! -x build/sevenzip-jdk/bin/javac ]]; then
 fi
 cmake -S build/compliance/sevenzipjbinding-f308cd8f663cc3c013bfb14ec9cfc3ecc75c23f3 -B build/sevenzip-build \
     -DJAVA_JDK="$PWD/build/sevenzip-jdk" -DCMAKE_CXX_FLAGS=-std=gnu++98
+# Upstream omits the test-JAR dependency on the API JAR; bootstrap it first.
+cmake --build build/sevenzip-build --target sevenzipjbinding-jar -j1
 cmake --build build/sevenzip-build -j"${BUILD_JOBS:-6}"
 # Upstream tests share a native extraction cache: they must run serially.
 (cd build/sevenzip-build && ctest --output-on-failure -j1)
