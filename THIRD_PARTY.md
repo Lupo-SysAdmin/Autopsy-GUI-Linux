@@ -2,7 +2,7 @@
 
 ## American English
 
-The repository's Apache-2.0 license applies to original Linux integration code, scripts, icon, and documentation by Jan Carlos Herrera Ascanio (Lupo-SysAdmin). It does not relicense bundled software or grant trademark rights.
+The repository's Apache-2.0 license applies to original Linux integration code, scripts, icon, and documentation by Jan Herrera (Lupo-SysAdmin). It does not relicense bundled software or grant trademark rights.
 
 | Component | Origin and licensing |
 | --- | --- |
@@ -18,7 +18,7 @@ No endorsement by Autopsy, Sleuth Kit Labs, Eclipse, Debian, Kali, Parrot or Ubu
 
 ## Español latinoamericano
 
-Apache-2.0 cubre el código original de integración, scripts, icono y documentación de Jan Carlos Herrera Ascanio (Lupo-SysAdmin). No cambia las licencias del software incluido ni concede derechos sobre marcas.
+Apache-2.0 cubre el código original de integración, scripts, icono y documentación de Jan Herrera (Lupo-SysAdmin). No cambia las licencias del software incluido ni concede derechos sobre marcas.
 
 Autopsy utiliza Apache-2.0, pero sus bibliotecas conservan licencias propias. TSK incluye licencias mixtas: se conserva su directorio `licenses/`. Temurin/OpenJDK utiliza GPLv2 con Classpath Exception y avisos de terceros en `runtime/legal/`. NetBeans, JavaFX, Solr y los demás componentes conservan avisos y metadatos originales. APT administra las licencias y fuentes de las bibliotecas del sistema.
 

@@ -2,7 +2,7 @@
 
 Español latinoamericano · [American English](README.md)
 
-Integración independiente de escritorio Linux y empaquetado Debian por **Jan Carlos Herrera Ascanio (Lupo-SysAdmin)**.
+Integración independiente de escritorio Linux y empaquetado Debian por **Jan Herrera (Lupo-SysAdmin)**.
 
 Autopsy **4.23.1**, The Sleuth Kit **4.15.0** y un entorno Java privado Eclipse Temurin **21.0.13+9**. La interfaz gráfica original de Autopsy es desarrollada por el proyecto original. Este repositorio facilita construir, instalar y mantener su distribución Linux; no se atribuye la creación de esa interfaz.
 
@@ -53,7 +53,7 @@ Consulta [arquitectura y publicación](docs/BUILD.md), [créditos y licencias](T
 
 ## Créditos
 
-**Desarrollador y mantenedor de la integración Linux:** Jan Carlos Herrera Ascanio — [Lupo-SysAdmin](https://github.com/Lupo-SysAdmin).
+**Desarrollador y mantenedor de la integración Linux:** Jan Herrera — [Lupo-SysAdmin](https://github.com/Lupo-SysAdmin).
 
 **Aplicación, interfaz y motor forense originales:** Brian Carrier, Sleuth Kit Labs y colaboradores de Autopsy/The Sleuth Kit. **Java:** Eclipse Adoptium/Temurin y colaboradores de OpenJDK. Integración original bajo Apache-2.0; cada componente conserva su licencia. Consulta [NOTICE](NOTICE) y [THIRD_PARTY.md](THIRD_PARTY.md).
 
