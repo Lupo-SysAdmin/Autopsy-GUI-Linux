@@ -2,6 +2,9 @@
 
 ## 4.23.1-3
 
+- Use the original Autopsy desktop icon in six native sizes.
+- Icono original de Autopsy para el escritorio en seis tamaños nativos.
+
 - Add pinned corresponding sources, original notices, and redistribution evidence for bundled libraries.
 - Rebuild SevenZip's Linux native library from the matching Sleuth Kit fork; preserve the original Java API.
 - Include complete JAI redistributables and the required codec companion; retain LICENSE4J's publisher terms.

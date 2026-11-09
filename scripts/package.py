@@ -74,12 +74,16 @@ def main():
     for source, dest in [
         ('packaging/autopsy-gui', 'usr/bin/autopsy-gui'),
         ('packaging/autopsy-gui.desktop', 'usr/share/applications/autopsy-gui.desktop'),
-        ('packaging/autopsy-gui.svg', 'usr/share/icons/hicolor/scalable/apps/autopsy-gui.svg'),
     ]:
         target = stage / dest
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / source, target)
         target.chmod(0o755 if dest.startswith('usr/bin/') else 0o644)
+    # Original Autopsy icon frames, converted to PNG with identical RGBA pixels.
+    for icon in (ROOT / 'packaging/icons').glob('*/autopsy-gui.png'):
+        target = stage / 'usr/share/icons/hicolor' / icon.parent.name / 'apps/autopsy-gui.png'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(icon, target)
     doc = stage / 'usr/share/doc/autopsy-gui'
     doc.mkdir(parents=True)
     for name in ['LICENSE', 'NOTICE', 'README.md', 'README.es.md', 'THIRD_PARTY.md', 'versions.lock.json']:

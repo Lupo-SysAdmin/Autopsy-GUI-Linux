@@ -1,0 +1,62 @@
+{
+  "origin": "Official Autopsy 4.23.1 ZIP, icon.ico",
+  "upstream": "https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.23.1",
+  "original_ico_sha256": "39f72feda4150fd44ff3b8a370a1e6cad14faeea40f75a496c211d599d66e65e",
+  "transformation": "ICO frames converted to PNG without resizing or changing RGBA pixels. Original Autopsy artwork and trademarks; no Linux maintainer authorship claimed.",
+  "frames": [
+    {
+      "size": [
+        16,
+        16
+      ],
+      "file": "packaging/icons/16x16/autopsy-gui.png",
+      "png_sha256": "fb098ae2f7b95d8603343f882c2917968a11330be991c06bab52507ab9f7be88",
+      "rgba_sha256": "dbb132ea39aa112b8d500028a3162ffcb49cfa1c58dfd3dd29b79f21b65fde66"
+    },
+    {
+      "size": [
+        32,
+        32
+      ],
+      "file": "packaging/icons/32x32/autopsy-gui.png",
+      "png_sha256": "b782a0ed1f27dda8f246b3edd078f882ce62be701d559eff87be17ca868a6d82",
+      "rgba_sha256": "926172130bfa0f9741c39ab89710e22154a6ec3eabf80fc84a6d365ce0bdcc34"
+    },
+    {
+      "size": [
+        48,
+        48
+      ],
+      "file": "packaging/icons/48x48/autopsy-gui.png",
+      "png_sha256": "46450a4f6a7812fcbd094c0a1c595adb4aaf65a0fcbf0509cbb3426d64ab7f86",
+      "rgba_sha256": "c849a66050cbe138c4e58775f99efbfd8ab60d964a04923beb0fa6aee74d16dd"
+    },
+    {
+      "size": [
+        64,
+        64
+      ],
+      "file": "packaging/icons/64x64/autopsy-gui.png",
+      "png_sha256": "a0d46754d497361e95536a1c76e14d2407d40a211cf771fde0b91e1ab9d3489a",
+      "rgba_sha256": "8bdbcb3b726c8e509c85d9b06ab25b7e412e264e1d5cd0c4144a71f02e04663c"
+    },
+    {
+      "size": [
+        128,
+        128
+      ],
+      "file": "packaging/icons/128x128/autopsy-gui.png",
+      "png_sha256": "ce5c85aac9f5c6597dba462ac14d203c4cbd7e5b444beba5a0b12bda3c5516d8",
+      "rgba_sha256": "3a1e317c105066e967a0fe98cc309669f2992c66ec88f35c527bf77dafbb80fa"
+    },
+    {
+      "size": [
+        256,
+        256
+      ],
+      "file": "packaging/icons/256x256/autopsy-gui.png",
+      "png_sha256": "dc8dc92aef70ed9f538ea6355edfdc8cb50c2f4a8aebe2bb8c9885fc4ed21ff7",
+      "rgba_sha256": "7e43862ac11e08b83f41cea471329915e43d02e6226988a3788d1461ae437635"
+    }
+  ]
+}
