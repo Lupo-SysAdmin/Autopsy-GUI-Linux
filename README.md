@@ -6,7 +6,7 @@ Independent Linux desktop integration and Debian packaging by **Jan Herrera (Lup
 
 Autopsy **4.23.1**, The Sleuth Kit **4.15.0**, and a private Eclipse Temurin **21.0.13+9** runtime. The original Autopsy graphical interface is developed by the upstream project. This repository makes its Linux distribution easier to build, install, and maintain; it does not claim to have created that interface.
 
-**Status: revision 4 validation in progress.** See [validation results](docs/VALIDATION.md) and the module limitations below. This is an independent binary redistribution, not an official Debian/Kali/Parrot/Ubuntu package.
+**Status: stable for the validated amd64 core workflow on Ubuntu 24.04.5, Kali 2026.3, and Parrot 7.4.** See [validation results](docs/VALIDATION.md) and the module limitations below. This is an independent binary redistribution, not an official Debian/Kali/Parrot/Ubuntu package.
 
 ## Install
 
@@ -61,4 +61,4 @@ See [architecture and release process](docs/BUILD.md), [credits and licensing](T
 
 Official sources: [Autopsy release](https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.23.1), [Linux instructions](https://github.com/sleuthkit/autopsy/blob/autopsy-4.23.1/Running_Linux_OSX.md), [TSK release](https://github.com/sleuthkit/sleuthkit/releases/tag/sleuthkit-4.15.0).
 
-![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-4.23.1-2-keyword.png)
+![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-4.23.1-4-keyword.png)

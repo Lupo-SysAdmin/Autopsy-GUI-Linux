@@ -40,3 +40,9 @@ Publica `autopsy-third-party-sources-4.23.1.tar.gz` junto con el `.deb`, las fue
 Esta integración no agrega restricciones a modificar o sustituir bibliotecas LGPL, reenlazar con versiones modificadas ni realizar ingeniería inversa para depurar esas modificaciones. Las bibliotecas se mantienen separadas. Cada componente conserva su licencia; no se otorga un aval de las marcas originales.
 
 Additional notices cover AppleJavaExtensions, ASM, Bouncy Castle, ICEpdf, JGraphX, protobuf, OpenCV, WebP, Adobe XMP and other permissive libraries. BoringSSL notices match commit `49f0329110a1d93a5febc2bceceedc655d995420` recorded in Conscrypt 2.5.2. Se incluyen también los avisos de estas bibliotecas permisivas y de BoringSSL según el commit identificado dentro de Conscrypt. SpotBugs incluye su árbol de fuentes completo y licencia LGPL.
+
+## Revision 4 / Revisión 4
+
+Revision 4 supplies the complete private Temurin 21 JDK instead of the reduced JRE. The same publisher source archive covers this exact 21.0.13+9 build, and all JDK legal notices are retained. The other source and notice materials above are unchanged.
+
+La revisión 4 entrega el JDK Temurin 21 privado completo en lugar del JRE reducido. El mismo archivo de fuentes del editor corresponde a esta compilación 21.0.13+9 y se conservan todos sus avisos legales. Los demás materiales anteriores se mantienen.

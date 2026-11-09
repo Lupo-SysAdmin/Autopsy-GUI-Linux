@@ -12,7 +12,7 @@
 - Verificación del registro inicial además del registro del caso y prueba del lanzador sin agente Java.
 - Icono original de Autopsy y materiales de fuentes/avisos conservados.
 
-## 4.23.1-3
+## 4.23.1-3 — internal candidate / candidato interno
 
 - Use the original Autopsy desktop icon in six native sizes.
 - Icono original de Autopsy para el escritorio en seis tamaños nativos.

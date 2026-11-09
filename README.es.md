@@ -6,7 +6,7 @@ Integración independiente de escritorio Linux y empaquetado Debian por **Jan He
 
 Autopsy **4.23.1**, The Sleuth Kit **4.15.0** y un entorno Java privado Eclipse Temurin **21.0.13+9**. La interfaz gráfica original de Autopsy es desarrollada por el proyecto original. Este repositorio facilita construir, instalar y mantener su distribución Linux; no se atribuye la creación de esa interfaz.
 
-**Estado: revisión 4 en validación.** Consulta los [resultados de validación](docs/VALIDATION.md) y las limitaciones de módulos indicadas abajo. Esta redistribución binaria es independiente y no es un paquete oficial de Debian, Kali, Parrot o Ubuntu.
+**Estado: estable para el flujo principal validado en amd64 con Ubuntu 24.04.5, Kali 2026.3 y Parrot 7.4.** Consulta los [resultados de validación](docs/VALIDATION.md) y las limitaciones de módulos indicadas abajo. Esta redistribución binaria es independiente y no es un paquete oficial de Debian, Kali, Parrot o Ubuntu.
 
 ## Instalación
 
@@ -61,4 +61,4 @@ Consulta [arquitectura y publicación](docs/BUILD.md), [créditos y licencias](T
 
 Fuentes oficiales: [Autopsy](https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.23.1), [instrucciones Linux](https://github.com/sleuthkit/autopsy/blob/autopsy-4.23.1/Running_Linux_OSX.md), [TSK](https://github.com/sleuthkit/sleuthkit/releases/tag/sleuthkit-4.15.0).
 
-![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-4.23.1-2-keyword.png)
+![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-4.23.1-4-keyword.png)

@@ -1,10 +1,20 @@
 # Validation / Validación
 
-## Revision 4 follow-up / Seguimiento de la revisión 4
+## 4.23.1-4 — stable core workflow / Flujo principal estable
 
-The revision 3 case tests passed, but a later review found `SwingInterOpUtils` errors in the separate platform startup log. The reduced JRE lacks `jdk.unsupported.desktop`. Revision 4 uses the complete private JDK and adds startup-log checks and a launch without instrumentation. Its full validation is in progress; revision 3 is not the stable binary release.
+**American English.** Revision 4 passed the complete local suite on Ubuntu 24.04.5, Kali 2026.3 and Parrot 7.4 on November 9, 2026 UTC. Tests now check both the platform startup log and the case log, and exercise the production launcher without a Java agent. The complete private Temurin 21 JDK includes `jdk.unsupported.desktop`, fixing JavaFX Swing interoperability errors found after revision 3. The original Autopsy desktop icon is retained.
 
-Las pruebas de casos de la revisión 3 aprobaron, pero una revisión posterior encontró errores `SwingInterOpUtils` en el registro independiente de inicio. Al JRE reducido le falta `jdk.unsupported.desktop`. La revisión 4 utiliza el JDK privado completo y agrega controles del registro inicial y un arranque sin instrumentación. Su validación completa está en curso; la revisión 3 no es la publicación binaria estable.
+[Results and candidate hash](qa/2026-11-09-rev4.json), [logs and package inventories](qa/2026-11-09-rev4.logs.tar.gz), [runtime manifest](qa/4.23.1-4-tested-runtime.json), and [TSK JAR member hashes](qa/4.23.1-4-tsk-jar-members.json) record the local evidence. The release's validation JSON records the final DEB hash, host installation, and remote Actions outcome. Final documentation packaging is checked against the tested application bytes, permissions and symlinks; TSK JAR members are compared individually because assembly changes ZIP timestamps. Build-info metadata is excluded.
+
+**Español latinoamericano.** La revisión 4 aprobó la suite local completa en Ubuntu 24.04.5, Kali 2026.3 y Parrot 7.4 el 9 de noviembre de 2026 UTC. Las pruebas verifican tanto el registro inicial como el registro del caso y ejecutan el lanzador sin agente Java. El JDK Temurin 21 privado completo incluye `jdk.unsupported.desktop` y corrige los errores de integración JavaFX/Swing detectados después de la revisión 3. Se conserva el icono original de Autopsy.
+
+Los enlaces anteriores registran resultados, hash del candidato, paquetes, registros y contenidos probados. El JSON de validación de la release identifica el DEB final, la instalación en el host y el resultado de Actions. Al incorporar documentación final se comprueban los mismos contenidos, permisos y enlaces; el JAR de TSK se compara por entradas porque el ensamblado cambia fechas del ZIP. Se excluyen los metadatos de build-info.
+
+| Platform / Plataforma | Search / Búsqueda | Report / Informe |
+| --- | --- | --- |
+| Ubuntu | [Screenshot / Captura](screenshots/ubuntu-4.23.1-4-keyword.png) | [Screenshot / Captura](screenshots/ubuntu-4.23.1-4-report.png) |
+| Kali | [Screenshot / Captura](screenshots/kali-4.23.1-4-keyword.png) | [Screenshot / Captura](screenshots/kali-4.23.1-4-report.png) |
+| Parrot | [Screenshot / Captura](screenshots/parrot-4.23.1-4-keyword.png) | [Screenshot / Captura](screenshots/parrot-4.23.1-4-report.png) |
 
 ## 4.23.1-3 — historical case tests / Pruebas anteriores de casos
 
