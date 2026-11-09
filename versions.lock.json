@@ -21,5 +21,17 @@
     "file": "OpenJDK21U-jdk-sources_21.0.13_9.tar.gz",
     "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk-sources_21.0.13_9.tar.gz",
     "sha256": "b5232c9980d8a0f0459676c084c41c6e2c771ed9e785890b03c6a438406ad1ca"
+  },
+  "sevenzip_source": {
+    "file": "sevenzip-sleuthkit-f308cd8-source.tar.gz",
+    "url": "https://codeload.github.com/sleuthkit/sevenzipjbinding/tar.gz/f308cd8f663cc3c013bfb14ec9cfc3ecc75c23f3",
+    "sha256": "b635f3c25cf1595920f86faa5535d55d4dcaa1e45d2a39453652cefe63d97a93",
+    "version": "f308cd8f663cc3c013bfb14ec9cfc3ecc75c23f3"
+  },
+  "sevenzip_build_jdk": {
+    "file": "OpenJDK8U-jdk_x64_linux_hotspot_8u512b09.tar.gz",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_linux_hotspot_8u512b09.tar.gz",
+    "sha256": "fb3bfa869012419b562bb4235d0d83ec4f8c1dda62ae432ba20c6c3a7e43f7e4",
+    "role": "build-only; not bundled in the application"
   }
 }

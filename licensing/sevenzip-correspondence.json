@@ -1,0 +1,10 @@
+{
+  "source": {
+    "file": "sevenzip-sleuthkit-f308cd8-source.tar.gz",
+    "url": "https://codeload.github.com/sleuthkit/sevenzipjbinding/tar.gz/f308cd8f663cc3c013bfb14ec9cfc3ecc75c23f3",
+    "sha256": "b635f3c25cf1595920f86faa5535d55d4dcaa1e45d2a39453652cefe63d97a93",
+    "version": "f308cd8f663cc3c013bfb14ec9cfc3ecc75c23f3"
+  },
+  "identical_java_classes": 76,
+  "native_sha256": "1d5b10fa35ca5ba35d96cc916b534baabc4b4a44c804cedaf698d259065e5bb9"
+}

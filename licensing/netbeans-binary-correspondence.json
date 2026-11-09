@@ -1,0 +1,34 @@
+[
+  {
+    "path": "java/modules/ext/nb-javac-jdk-18-api.jar",
+    "sha256": "d8499dceaf823b0d6396392966a687084d4af1bd617c65eab49a1189849bed20",
+    "publisher_sha1": "eca15e615777ce6e7550f71ef312b8ceebcbe0bd",
+    "publisher_matches": [
+      "java/libs.javacapi/external/binaries-list"
+    ]
+  },
+  {
+    "path": "java/modules/ext/nb-javac-jdk-18.jar",
+    "sha256": "1fe35261b0ef34796495fc6452841c40c33d4d42a5a7fbe96ecae197ef13638f",
+    "publisher_sha1": "3ad512fbc8830d89ac70d0ca59397c4868789dcc",
+    "publisher_matches": [
+      "java/libs.javacapi/external/binaries-list"
+    ]
+  },
+  {
+    "path": "harness/modules/ext/jemmy-2.3.1.1.jar",
+    "sha256": "5ed65a118b90400886ff4debb29a6e2f82a440bd18e7045c8653d5cb3178616b",
+    "publisher_sha1": "d325d3913cbc0f9a8d73a466fabb98edeec014ab",
+    "publisher_matches": [
+      "harness/jemmy/external/binaries-list"
+    ]
+  },
+  {
+    "path": "platform/modules/ext/org.eclipse.osgi_3.9.1.nb9.jar",
+    "sha256": "4c1c1602f1d71435dfc1a1215e7206dce15b436f5bf5707a3eb03dc456d8145b",
+    "publisher_sha1": "cb97d80cedf7963313e1b1eadc0f1e49f62570dd",
+    "publisher_matches": [
+      "platform/netbinox/external/binaries-list"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/rjohnsondev/java-libpst/f158a64acf2a0e46ac3bd699bc7a5a8da6c40d26/LICENSE.APACHE-2.0.txt",
+    "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+    "path": "licensing/additional/rjohnsondev/java-libpst/LICENSE.APACHE-2.0.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rjohnsondev/java-libpst/f158a64acf2a0e46ac3bd699bc7a5a8da6c40d26/LICENSE.LGPL.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "path": "licensing/additional/rjohnsondev/java-libpst/LICENSE.LGPL.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rjohnsondev/java-libpst/f158a64acf2a0e46ac3bd699bc7a5a8da6c40d26/README.md",
+    "sha256": "f1f4ab49cc7450149f20dd2631134e0e129c06334468068d7d138701373b659d",
+    "path": "licensing/additional/rjohnsondev/java-libpst/README.md"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/williballenthin/Rejistry/14f70735a401e65a41eed7d4ac7de1803199993f/LICENSE.TXT",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "path": "licensing/additional/williballenthin/Rejistry/LICENSE.TXT"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/williballenthin/Rejistry/14f70735a401e65a41eed7d4ac7de1803199993f/NOTICE.TXT",
+    "sha256": "e29bedc3cebfd8d8819de62b977978a2dcc41889157a5cb355f0edb2aaa78984",
+    "path": "licensing/additional/williballenthin/Rejistry/NOTICE.TXT"
+  }
+]

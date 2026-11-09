@@ -11,9 +11,9 @@ The TSK JAR is modified by adding `NATIVELIBS/amd64/linux/libtsk_jni.so` and a m
 3. `package.py` extracts the ZIP, removes standalone Windows binary extensions, installs private native libraries/runtime under `/opt/autopsy-gui`, and writes the desktop launcher. It retains upstream notices. Native dependencies are calculated with `dpkg-shlibdeps`. Inspect `build/shlibdeps.log`; private TSK/JVM libraries may lack distro metadata, but unresolved external libraries must be fixed.
 4. Run package checks and the native test in `tests/NativeSmoke.java`. Test GUI startup and real ingest separately. There are no post-install downloads or package-manager calls from maintainer scripts.
 5. Test clean installation, upgrade, removal, and coexistence with legacy Autopsy on each target distribution. Dependency ABI differences may require separate builds. Do not label an untested OS supported.
-6. Publish a prerelease only after reviewing validation and third-party redistribution obligations. Upload all `dist/` files, including sources. Attach build logs, dependency inventory, checksums, and the release commit. Signing releases is recommended; hashes alone are not signatures.
+6. Publish a stable release only after all required validation passes and the source/notice bundle is verified. Upload all `dist/` files, including sources. Attach build logs, dependency inventory, checksums, and the release commit. Signing releases is recommended; hashes alone are not signatures.
 
-GitHub Actions builds on manual dispatch and pushes to `main`; it runs the full container suite and uploads QA evidence only. Binary publication is disabled while the redistribution review is open. It does not publish a release or push changes. Native dependencies come from the builder's distro. Build source is repeatable, but OS dependencies/container tags are not immutable snapshots.
+GitHub Actions builds on manual dispatch and pushes to `main`; it runs the full container suite and uploads QA evidence only. Binary release publication is a separate step and must include the corresponding source assets. It does not publish a release or push changes. Native dependencies come from the builder's distro. Build source is repeatable, but OS dependencies/container tags are not immutable snapshots.
 
 ## Español latinoamericano
 
@@ -26,6 +26,12 @@ Se agrega `NATIVELIBS/amd64/linux/libtsk_jni.so` al JAR de TSK junto con un avis
 3. `package.py` retira binarios Windows independientes, coloca bibliotecas y Java privados en `/opt/autopsy-gui`, conserva avisos e instala el lanzador. Calcula dependencias con `dpkg-shlibdeps`. Revisa `build/shlibdeps.log`: las bibliotecas privadas pueden carecer de metadatos Debian, pero las dependencias externas faltantes deben resolverse.
 4. Ejecuta los controles del paquete y `tests/NativeSmoke.java`. Prueba apertura gráfica e ingestión por separado. No se descarga ni compila software durante la instalación del paquete.
 5. Verifica instalación limpia, actualización, desinstalación y convivencia con Autopsy antiguo en cada distribución. Diferencias de ABI pueden requerir compilaciones separadas. No declares compatible un sistema sin probarlo.
-6. Publica una versión preliminar solo después de revisar las pruebas y obligaciones de redistribución. Adjunta todos los archivos de `dist/`, fuentes incluidas, además de logs, inventario de dependencias, hashes y commit. Los hashes no sustituyen una firma.
+6. Publica una versión estable únicamente cuando las pruebas requeridas y el paquete de fuentes/avisos estén verificados. Adjunta todos los archivos de `dist/`, fuentes incluidas, además de logs, inventario de dependencias, hashes y commit. Los hashes no sustituyen una firma.
 
-GitHub Actions construye manualmente o al hacer push a `main`. Ejecuta la suite completa y adjunta solo evidencias de QA. Mientras la revisión de redistribución siga abierta no adjunta el binario. No publica releases ni modifica el repositorio. Los repositorios del sistema y la etiqueta del contenedor no son snapshots inmutables.
+GitHub Actions construye manualmente o al hacer push a `main`. Ejecuta la suite completa y adjunta solo evidencias de QA. La publicación binaria es un paso separado y debe incluir los archivos de fuentes correspondientes. No publica releases ni modifica el repositorio. Los repositorios del sistema y la etiqueta del contenedor no son snapshots inmutables.
+
+## SevenZip and source bundles / SevenZip y archivos de fuentes
+
+`build-sevenzip.sh` builds the matching Sleuth Kit fork with the pinned build-only Temurin 8 JDK and C++98, runs all 17 upstream test groups serially, and verifies 76 identical Java classes. The application continues to run under Temurin 21. `bundle-third-party.py` verifies every source/redistributable hash. Embedded notices are collected without altering their text. See `third-party-sources.lock.json` and the redistribution record.
+
+`build-sevenzip.sh` compila el fork correspondiente con Temurin 8 fijado exclusivamente para construcción y C++98. Ejecuta los 17 grupos de pruebas de forma secuencial y verifica 76 clases Java idénticas. La aplicación sigue utilizando Temurin 21. `bundle-third-party.py` verifica los hashes de fuentes y redistribuibles; los avisos se conservan sin cambios.

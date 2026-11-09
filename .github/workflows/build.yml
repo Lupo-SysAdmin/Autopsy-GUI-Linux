@@ -1,4 +1,4 @@
-name: Build and validate experimental DEB
+name: Build and validate DEB
 on:
   workflow_dispatch:
   push:
@@ -37,7 +37,7 @@ jobs:
             docker rm "autopsy-qa-$distro"
           done
           exit "$status"
-      # No binary artifacts are published while the redistribution review is open.
+      # Release assets are published separately with corresponding sources; CI retains QA evidence.
       - uses: actions/upload-artifact@v4
         if: always()
         with:

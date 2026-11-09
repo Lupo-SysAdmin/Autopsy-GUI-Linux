@@ -1,0 +1,59 @@
+[
+  {
+    "file": "jfreechart-1.5.5.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.5/jfreechart-1.5.5.jar",
+    "sha256": "0912b43a7dd4456c9fd4012fcc9c7b14fd70732adfeaead996824b734a036d5a",
+    "bundled": "build/package/opt/autopsy-gui/autopsy/modules/ext/jfreechart-1.5.5.jar",
+    "exact_binary_match": true,
+    "code_entries": 692,
+    "different_entries": []
+  },
+  {
+    "file": "jfreechart-1.5.5-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.5/jfreechart-1.5.5-sources.jar",
+    "sha256": "80ecac2d24659f9804b3dd24b9ca57eb02947587e676fa065826374abac84f92"
+  },
+  {
+    "file": "jfreechart-1.5.5.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.5/jfreechart-1.5.5.pom",
+    "sha256": "9cd2f2209a866b92531e551f976473fa3f371b3db6658a27c5b23ac0b2b2449e"
+  },
+  {
+    "file": "gst1-java-core-1.4.0.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/freedesktop/gstreamer/gst1-java-core/1.4.0/gst1-java-core-1.4.0.jar",
+    "sha256": "f0726b2f74753c184abf0281aefe664fdec853ec051b79a5eb64e4e79089ca47",
+    "bundled": "build/package/opt/autopsy-gui/autopsy/modules/ext/gst1-java-core-1.4.0.jar",
+    "exact_binary_match": true,
+    "code_entries": 663,
+    "different_entries": []
+  },
+  {
+    "file": "gst1-java-core-1.4.0-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/freedesktop/gstreamer/gst1-java-core/1.4.0/gst1-java-core-1.4.0-sources.jar",
+    "sha256": "da51b28776901527dbeff1c588e3aec56f0f976cb9211b766297fce1ada694b0"
+  },
+  {
+    "file": "gst1-java-core-1.4.0.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/freedesktop/gstreamer/gst1-java-core/1.4.0/gst1-java-core-1.4.0.pom",
+    "sha256": "2f64754327e7a60e9fd2ce2a12384f64cc18365caba9cfb3a50953c4afe858b3"
+  },
+  {
+    "file": "javafx-base-17.0.14-ea+2-linux.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/17.0.14-ea%2B2/javafx-base-17.0.14-ea%2B2-linux.jar",
+    "sha256": "0bb14989f60eef681503ea39ef5ffd633c3e2575f36090a0481272d2b138e8fc",
+    "bundled": "build/package/opt/autopsy-gui/autopsy/modules/ext/javafx-base-17.0.14-ea2-linux.jar",
+    "exact_binary_match": true,
+    "code_entries": 663,
+    "different_entries": []
+  },
+  {
+    "file": "javafx-base-17.0.14-ea+2-sources.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/17.0.14-ea%2B2/javafx-base-17.0.14-ea%2B2-sources.jar",
+    "sha256": "f841997e5d6aa1c7105cff9835529a597926fe2a01b4b2945ee678b4bee251f8"
+  },
+  {
+    "file": "javafx-base-17.0.14-ea+2.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/17.0.14-ea%2B2/javafx-base-17.0.14-ea%2B2.pom",
+    "sha256": "6cd1a51dcd8c5437c197b6a9ec51a32d001db1e86f41729089d8bbc63d663ea8"
+  }
+]

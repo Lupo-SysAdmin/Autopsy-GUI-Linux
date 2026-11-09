@@ -13,7 +13,7 @@ Autopsy **4.23.1**, The Sleuth Kit **4.15.0** y un entorno Java privado Eclipse 
 Descarga el `.deb` y `SHA256SUMS` desde una release de este repositorio. El enlace se agregará cuando se publique. Compara el hash del paquete con el manifiesto de la release y ejecuta:
 
 ```bash
-sudo apt install ./autopsy-gui_4.23.1-2_amd64.deb
+sudo apt install ./autopsy-gui_4.23.1-3_amd64.deb
 autopsy-gui
 ```
 
@@ -27,7 +27,7 @@ sudo apt remove autopsy-gui
 
 La configuración se guarda en `${XDG_DATA_HOME:-~/.local/share}/autopsy-gui` y la caché en `${XDG_CACHE_HOME:-~/.cache}/autopsy-gui`. Tú eliges dónde guardar los casos. Desinstalar el paquete no borra casos ni configuración personal. El máximo de memoria Java predeterminado es 4 GB; puedes ajustar `AUTOPSY_GUI_HEAP=8G`. Para solicitar español: `autopsy-gui --locale es` (la traducción depende de Autopsy).
 
-Los perfiles nuevos desactivan aLEAPP, iLEAPP y YARA, exclusivos de Windows. Se conservan los perfiles existentes; si actualizas desde la revisión 1, desmarca esos tres módulos en Configure Ingest y Run Ingest Modules. Solr guarda sus registros y archivos de proceso en el perfil del usuario y escucha en localhost. Consulta las [pruebas](docs/TESTING.md) y la [revisión de redistribución pendiente](docs/REDISTRIBUTION-REVIEW.md).
+Los perfiles nuevos desactivan aLEAPP, iLEAPP y YARA, exclusivos de Windows. Se conservan los perfiles existentes; si actualizas desde la revisión 1, desmarca esos tres módulos en Configure Ingest y Run Ingest Modules. Solr guarda sus registros y archivos de proceso en el perfil del usuario y escucha en localhost. Consulta las [pruebas](docs/TESTING.md) y la [registro de redistribución](docs/REDISTRIBUTION-REVIEW.md).
 
 ## Construcción
 
@@ -38,7 +38,7 @@ docker build -t autopsy-gui-builder -f packaging/Dockerfile .
 docker run --rm -v "$PWD:/work" autopsy-gui-builder
 ```
 
-Los resultados quedan en `dist/`: `.deb`, manifiesto SHA-256, versiones fijadas y archivos de código fuente correspondientes a TSK y Java. Los archivos generados por Docker pueden pertenecer a root. No subas `.cache/`, `build/` ni `dist/` al historial Git; publica los resultados como adjuntos de una release. Reserva varios GB de disco y conexión para la primera construcción.
+Los resultados quedan en `dist/`: `.deb`, manifiesto SHA-256, versiones fijadas y archivos de código fuente correspondientes a TSK, Java y las bibliotecas adicionales. Los archivos generados por Docker pueden pertenecer a root. No subas `.cache/`, `build/` ni `dist/` al historial Git; publica los resultados como adjuntos de una release. Reserva varios GB de disco y conexión para la primera construcción.
 
 Los scripts verifican hashes SHA-256 fijados antes de extraer las descargas. TSK/JNI se compila desde el código oficial; el JAR Java correspondiente proviene del ZIP oficial de Autopsy. Los repositorios del sistema operativo no están fijados a snapshots, por lo que no se afirma reproducibilidad idéntica bit por bit.
 

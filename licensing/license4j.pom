@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.license4j</groupId>
+  <artifactId>license4j-runtime-library</artifactId>
+  <version>4.7.3</version>
+   
+   <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>8</maven.compiler.release>
+    </properties>
+	
+	 <name>license4j-runtime-library</name>
+  <description>LICENSE4J Runtime Library. NOTICE: for new projects use the new version 5.0.0 artifactId=licensing-library.</description>
+    <url>https://www.license4j.com</url>
+  
+  <scm>
+     <url>https://github.com/license4j</url>
+     <connection>https://github.com/license4j/licensing-library.git</connection>
+     <developerConnection>https://github.com/license4j/licensing-library.git</developerConnection>
+    <tag>HEAD</tag>
+   </scm>
+   
+    <licenses>
+        <license>
+            <name>LICENSE4J Licensing Library EULA</name>
+            <url>https://www.license4j.com/EULA.txt</url>
+            <distribution>repo</distribution>
+            <comments>Distributable Library in any Java Software</comments>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <name>LICENSE4J Support</name>
+            <email>support@license4j.com</email>
+            <organization>LICENSE4J</organization>
+            <organizationUrl>https://www.license4j.com</organizationUrl>
+        </developer>
+    </developers>
+	
+</project>

@@ -1,5 +1,19 @@
 # Changelog / Historial de cambios
 
+## 4.23.1-3
+
+- Add pinned corresponding sources, original notices, and redistribution evidence for bundled libraries.
+- Rebuild SevenZip's Linux native library from the matching Sleuth Kit fork; preserve the original Java API.
+- Include complete JAI redistributables and the required codec companion; retain LICENSE4J's publisher terms.
+- Add Java 21 archive extraction tests with passwords and accented filenames.
+
+### Español latinoamericano
+
+- Fuentes correspondientes, avisos originales y evidencias de redistribución de bibliotecas con hashes fijados.
+- Reconstrucción nativa de SevenZip desde el fork correspondiente; API Java original conservada.
+- Redistribuibles JAI completos, codec complementario y términos del editor de LICENSE4J.
+- Pruebas de extracción con Java 21, contraseñas y nombres acentuados.
+
 ## 4.23.1-2 — experimental
 
 - Initialize Linux ingest profiles with the three Windows-only modules disabled; preserve existing preferences.

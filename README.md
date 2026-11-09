@@ -13,7 +13,7 @@ Autopsy **4.23.1**, The Sleuth Kit **4.15.0**, and a private Eclipse Temurin **2
 Download the `.deb` and `SHA256SUMS` from a release of this repository. No release URL is provided until publication. Check the package's checksum against the release manifest, then:
 
 ```bash
-sudo apt install ./autopsy-gui_4.23.1-2_amd64.deb
+sudo apt install ./autopsy-gui_4.23.1-3_amd64.deb
 autopsy-gui
 ```
 
@@ -27,7 +27,7 @@ sudo apt remove autopsy-gui
 
 User settings are in `${XDG_DATA_HOME:-~/.local/share}/autopsy-gui`; cache is in `${XDG_CACHE_HOME:-~/.cache}/autopsy-gui`. Case locations are chosen by the user. Removal does not delete cases or user settings. Default maximum heap is 4 GB; set `AUTOPSY_GUI_HEAP=8G` when appropriate. To request Spanish, launch `autopsy-gui --locale es` (translations depend on upstream).
 
-New profiles disable the Windows-only aLEAPP, iLEAPP and YARA modules. Existing profiles are preserved; if upgrading from revision 1, uncheck these three modules in Configure Ingest and Run Ingest Modules. Solr stores its logs and PID files in the user profile and listens on localhost. See [test instructions](docs/TESTING.md) and the open [redistribution review](docs/REDISTRIBUTION-REVIEW.md).
+New profiles disable the Windows-only aLEAPP, iLEAPP and YARA modules. Existing profiles are preserved; if upgrading from revision 1, uncheck these three modules in Configure Ingest and Run Ingest Modules. Solr stores its logs and PID files in the user profile and listens on localhost. See [test instructions](docs/TESTING.md) and the [redistribution record](docs/REDISTRIBUTION-REVIEW.md).
 
 ## Build
 
@@ -38,7 +38,7 @@ docker build -t autopsy-gui-builder -f packaging/Dockerfile .
 docker run --rm -v "$PWD:/work" autopsy-gui-builder
 ```
 
-The output is in `dist/`: `.deb`, SHA-256 manifest, pinned versions, and corresponding source archives for TSK and the Java runtime. Container output may be owned by root. Never commit `.cache/`, `build/`, or `dist/` to Git. Upload release artifacts instead. Allow several GB of disk space and internet access for the first build.
+The output is in `dist/`: `.deb`, SHA-256 manifest, pinned versions, and corresponding source archives for TSK, the Java runtime, and additional third-party libraries. Container output may be owned by root. Never commit `.cache/`, `build/`, or `dist/` to Git. Upload release artifacts instead. Allow several GB of disk space and internet access for the first build.
 
 The scripts verify fixed upstream SHA-256 hashes before extraction. The native TSK/JNI layer is compiled from the official source archive; the matching Java JAR comes from the official Autopsy ZIP. Build package versions are recorded in the build environment; OS repositories are not snapshot-pinned, so bit-for-bit reproducibility is not claimed.
 
