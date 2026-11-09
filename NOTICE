@@ -1,0 +1,22 @@
+Autopsy GUI for Linux — independent integration and packaging
+Copyright 2026 Jan Carlos Herrera Ascanio (Lupo-SysAdmin)
+
+Linux adaptation, desktop integration, launcher, packaging automation,
+validation tooling, and bilingual project documentation: Lupo-SysAdmin.
+
+Autopsy, its original graphical interface, and The Sleuth Kit are developed
+by Brian Carrier, Sleuth Kit Labs, and their respective contributors.
+Autopsy and The Sleuth Kit are trademarks of their respective owners.
+This independent project is not an official release or an endorsed product.
+No ownership of the upstream graphical interface is claimed.
+
+Adaptación Linux, integración de escritorio, lanzador, automatización de
+empaquetado, herramientas de validación y documentación bilingüe: Lupo-SysAdmin.
+Autopsy, su interfaz gráfica original y The Sleuth Kit pertenecen a sus
+respectivos autores. Este proyecto es independiente y no representa una
+distribución oficial ni cuenta con un aval implícito de sus autores.
+
+The Apache-2.0 license in this repository covers original integration work.
+Bundled software retains its own copyright notices and licenses.
+La licencia Apache-2.0 de este repositorio cubre el trabajo original de
+integración. El software incluido conserva sus propios créditos y licencias.

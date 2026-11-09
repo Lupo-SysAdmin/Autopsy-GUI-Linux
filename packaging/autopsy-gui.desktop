@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Autopsy GUI
+GenericName=Digital Forensics
+GenericName[es]=Análisis forense digital
+Comment=Autopsy with Linux desktop integration by Lupo-SysAdmin
+Comment[es]=Autopsy con integración de escritorio Linux por Lupo-SysAdmin
+Exec=autopsy-gui
+TryExec=autopsy-gui
+Icon=autopsy-gui
+Terminal=false
+Categories=System;
+Keywords=forensics;disk;evidence;autopsy;
+Keywords[es]=forense;disco;evidencia;autopsy;
+StartupNotify=true

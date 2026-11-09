@@ -1,0 +1,35 @@
+#!/bin/bash
+# Copyright 2026 Lupo-SysAdmin. SPDX-License-Identifier: Apache-2.0
+set -euo pipefail
+app=${AUTOPSY_GUI_HOME:-/opt/autopsy-gui}
+java_home="$app/runtime"
+export JAVA_HOME="$java_home"
+export PATH="$JAVA_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$app/native${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+if [[ ${1:-} == --version ]]; then
+    cat "$app/build-info.json"
+    exit 0
+fi
+if [[ ${1:-} == --diagnose ]]; then
+    "$JAVA_HOME/bin/java" -version
+    missing=0
+    for lib in "$app"/native/libtsk*.so; do
+        result=$(ldd "$lib")
+        printf '%s\n' "$result"
+        if [[ $result == *'not found'* ]]; then missing=1; fi
+    done
+    exit "$missing"
+fi
+if [[ -z ${DISPLAY:-} && -z ${WAYLAND_DISPLAY:-} ]]; then
+    echo 'A desktop session is required / Se requiere una sesión de escritorio.' >&2
+    exit 1
+fi
+data=${XDG_DATA_HOME:-$HOME/.local/share}/autopsy-gui
+cache=${XDG_CACHE_HOME:-$HOME/.cache}/autopsy-gui
+mkdir -p "$data" "$cache"
+mkdir -p "$cache/native"
+chmod 700 "$cache/native"
+exec "$app/bin/autopsy" --jdkhome "$java_home" \
+    --userdir "$data" --cachedir "$cache" \
+    -J-Djava.library.path="$app/native" -J-Dtsk.tmpdir="$cache/native" \
+    -J-Xmx"${AUTOPSY_GUI_HEAP:-4G}" "$@"

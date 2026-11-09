@@ -1,0 +1,25 @@
+{
+  "autopsy": {
+    "version": "4.23.1",
+    "file": "autopsy-4.23.1.zip",
+    "url": "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.23.1/autopsy-4.23.1.zip",
+    "sha256": "b58cd4c04f42f49823488f05f6a5b43ada470ff7343c2d71dd2e154114d09eae"
+  },
+  "sleuthkit": {
+    "version": "4.15.0",
+    "file": "sleuthkit-4.15.0.tar.gz",
+    "url": "https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.15.0/sleuthkit-4.15.0.tar.gz",
+    "sha256": "3a8c1e7d18a9b81f3e5e8aa78313974aceaafc6e051d636bc92cd7168286eca9"
+  },
+  "runtime": {
+    "version": "21.0.13+9-LTS",
+    "file": "OpenJDK21U-jre_x64_linux_hotspot_21.0.13_9.tar.gz",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.13_9.tar.gz",
+    "sha256": "a535a1df9c6284d9618872984e026ae0352d1f7e9e0605425c0e6114f47351dd"
+  },
+  "runtime_source": {
+    "file": "OpenJDK21U-jdk-sources_21.0.13_9.tar.gz",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk-sources_21.0.13_9.tar.gz",
+    "sha256": "b5232c9980d8a0f0459676c084c41c6e2c771ed9e785890b03c6a438406ad1ca"
+  }
+}

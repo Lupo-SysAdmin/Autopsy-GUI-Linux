@@ -1,0 +1,53 @@
+name: Build experimental DEB
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t autopsy-gui-builder -f packaging/Dockerfile .
+      - name: Build package
+        run: docker run --rm -v "$PWD:/work" autopsy-gui-builder
+      - name: Upload package and corresponding sources
+        uses: actions/upload-artifact@v4
+        with:
+          name: autopsy-gui-experimental-amd64
+          path: dist/*
+          if-no-files-found: error
+  install:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        image: ['ubuntu:24.04', 'kalilinux/kali-rolling:latest', 'parrotsec/core:latest']
+    container:
+      image: ${{ matrix.image }}
+      options: --user 0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: autopsy-gui-experimental-amd64
+          path: dist
+      - name: Install dependencies and package
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends default-jdk-headless desktop-file-utils e2fsprogs ./dist/autopsy-gui_4.23.1-1_amd64.deb
+      - name: Verify installed JNI and case database
+        run: bash scripts/test-installed.sh
+      - name: Verify removal
+        run: |
+          apt-get remove -y autopsy-gui
+          test ! -e /usr/bin/autopsy-gui
