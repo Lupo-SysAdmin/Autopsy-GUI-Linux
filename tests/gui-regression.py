@@ -116,6 +116,9 @@ try:
     report = next((case / 'Reports').rglob('Keyword_Hits.html'))
     wait(lambda: 'evidence.txt' in report.read_text() and 'fixture' in report.read_text(), 'expected report contents')
     shot('report.png')
+    platform_log = OUT / 'data/autopsy-gui/var/log/messages.log'
+    assert platform_log.is_file(), 'Missing platform startup log'
+    assert not re.search(r'^SEVERE', platform_log.read_text(), re.MULTILINE), 'Severe startup/platform error; inspect messages.log'
     (OUT / 'PASS').write_text('GUI case creation, Linux module defaults, ingest, keyword hit, HTML report: PASS\n')
     print((OUT / 'PASS').read_text(), flush=True)
 finally:

@@ -6,14 +6,14 @@ Integración independiente de escritorio Linux y empaquetado Debian por **Jan He
 
 Autopsy **4.23.1**, The Sleuth Kit **4.15.0** y un entorno Java privado Eclipse Temurin **21.0.13+9**. La interfaz gráfica original de Autopsy es desarrollada por el proyecto original. Este repositorio facilita construir, instalar y mantener su distribución Linux; no se atribuye la creación de esa interfaz.
 
-**Estado: estable para el flujo principal validado en amd64 con Ubuntu 24.04.5, Kali 2026.3 y Parrot 7.4.** Consulta los [resultados de validación](docs/VALIDATION.md) y las limitaciones de módulos indicadas abajo. Esta redistribución binaria es independiente y no es un paquete oficial de Debian, Kali, Parrot o Ubuntu.
+**Estado: revisión 4 en validación.** Consulta los [resultados de validación](docs/VALIDATION.md) y las limitaciones de módulos indicadas abajo. Esta redistribución binaria es independiente y no es un paquete oficial de Debian, Kali, Parrot o Ubuntu.
 
 ## Instalación
 
 Descarga el `.deb` y `SHA256SUMS` desde [GitHub Releases](https://github.com/Lupo-SysAdmin/Autopsy-GUI-Linux/releases). Compara el hash del paquete con el manifiesto de la release y ejecuta:
 
 ```bash
-sudo apt install ./autopsy-gui_4.23.1-3_amd64.deb
+sudo apt install ./autopsy-gui_4.23.1-4_amd64.deb
 autopsy-gui
 ```
 

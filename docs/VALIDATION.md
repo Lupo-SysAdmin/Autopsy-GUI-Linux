@@ -1,6 +1,12 @@
 # Validation / Validación
 
-## 4.23.1-3 — validated core workflow / Flujo principal validado
+## Revision 4 follow-up / Seguimiento de la revisión 4
+
+The revision 3 case tests passed, but a later review found `SwingInterOpUtils` errors in the separate platform startup log. The reduced JRE lacks `jdk.unsupported.desktop`. Revision 4 uses the complete private JDK and adds startup-log checks and a launch without instrumentation. Its full validation is in progress; revision 3 is not the stable binary release.
+
+Las pruebas de casos de la revisión 3 aprobaron, pero una revisión posterior encontró errores `SwingInterOpUtils` en el registro independiente de inicio. Al JRE reducido le falta `jdk.unsupported.desktop`. La revisión 4 utiliza el JDK privado completo y agrega controles del registro inicial y un arranque sin instrumentación. Su validación completa está en curso; la revisión 3 no es la publicación binaria estable.
+
+## 4.23.1-3 — historical case tests / Pruebas anteriores de casos
 
 **American English.** All three disposable distributions passed the complete suite again on November 9, 2026 UTC, including the new ZIP, encrypted ZIP, and encrypted 7z tests under the private Java 21 runtime. SevenZip also passed all 17 upstream test groups, serially. [Results and candidate package hash](qa/2026-11-09-rev3.json), [logs and package inventories](qa/2026-11-09-rev3.logs.tar.gz), and the [tested runtime manifest](qa/4.23.1-3-tested-runtime.json) identify the evidence. The final packaging adds documentation/notices; application/runtime contents, permissions, and symlink targets are checked against that manifest. The TSK JAR is compared member by member because adding the JNI changes ZIP timestamps between builds; its classes, native code, notices and member list are identical. Only `build-info.json` build metadata and the requested desktop icon replacement are excluded. The original icon frames are checked separately against the upstream ICO, without changing pixels. Source/notice materials are documented in the [redistribution record](REDISTRIBUTION-REVIEW.md).
 

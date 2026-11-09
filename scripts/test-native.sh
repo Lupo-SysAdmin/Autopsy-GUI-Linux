@@ -3,6 +3,7 @@ set -euo pipefail
 export LANG=C.UTF-8 LC_ALL=C.UTF-8
 cd "$(dirname "$0")/.."
 app=${AUTOPSY_GUI_HOME:-"$PWD/build/package/opt/autopsy-gui"}
+"$app/runtime/bin/java" --describe-module jdk.unsupported.desktop >/dev/null
 mkdir -p build/test-classes
 bash scripts/make-fixture.sh
 classpath="$app/autopsy/modules/ext/*:$app/autopsy/modules/*:$app/platform/lib/*:$app/platform/modules/*"

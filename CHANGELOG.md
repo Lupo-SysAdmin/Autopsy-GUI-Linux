@@ -1,5 +1,17 @@
 # Changelog / Historial de cambios
 
+## 4.23.1-4
+
+- Bundle the complete private Temurin 21 JDK: the reduced JRE omitted `jdk.unsupported.desktop`, required by JavaFX Swing integration.
+- Check the platform startup log in addition to the case log, and test the production launcher without a Java agent.
+- Preserve the original Autopsy desktop icon and all redistribution source/notice materials.
+
+### Español latinoamericano
+
+- JDK Temurin 21 privado completo: el JRE reducido omitía `jdk.unsupported.desktop`, necesario para integrar JavaFX con Swing.
+- Verificación del registro inicial además del registro del caso y prueba del lanzador sin agente Java.
+- Icono original de Autopsy y materiales de fuentes/avisos conservados.
+
 ## 4.23.1-3
 
 - Use the original Autopsy desktop icon in six native sizes.

@@ -5,11 +5,11 @@ from pathlib import Path
 import subprocess
 
 root = Path(__file__).resolve().parents[1]
-package = root / 'dist/autopsy-gui_4.23.1-3_amd64.deb'
+package = root / 'dist/autopsy-gui_4.23.1-4_amd64.deb'
 assert subprocess.check_output(['dpkg-deb', '-f', str(package), 'Package'], text=True).strip() == 'autopsy-gui'
 assert subprocess.check_output(['dpkg-deb', '-f', str(package), 'Architecture'], text=True).strip() == 'amd64'
 listing = subprocess.check_output(['dpkg-deb', '-c', str(package)], text=True)
-for required in ['usr/bin/autopsy-gui', 'applications/autopsy-gui.desktop', 'runtime/bin/java', 'native/libtsk_jni.so', 'doc/autopsy-gui/NOTICE']:
+for required in ['usr/bin/autopsy-gui', 'applications/autopsy-gui.desktop', 'runtime/bin/java', 'native/libtsk_jni.so', 'doc/autopsy-gui/NOTICE', 'runtime/jmods/jdk.unsupported.desktop.jmod', 'icons/hicolor/256x256/apps/autopsy-gui.png']:
     assert required in listing, required
 assert 'usr/bin/autopsy\n' not in listing
 assert '/home/lupo/' not in listing

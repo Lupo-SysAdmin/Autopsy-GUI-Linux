@@ -1,7 +1,12 @@
 #!/bin/bash
+# Check the real launcher without the Swing instrumentation agent.
 set -euo pipefail
-mkdir -p build/gui
-setsid autopsy-gui --nosplash > build/gui/console.log 2>&1 &
+export LANG=C.UTF-8 LC_ALL=C.UTF-8
+out="$PWD/build/gui-startup"
+test ! -e "$out"
+mkdir -p "$out"
+export XDG_DATA_HOME="$out/data" XDG_CACHE_HOME="$out/cache"
+setsid autopsy-gui > "$out/console.log" 2>&1 &
 app_pid=$!
 cleanup() {
     kill -TERM -- "-$app_pid" 2>/dev/null || true
@@ -14,8 +19,8 @@ cleanup() {
 }
 trap cleanup EXIT
 found=0
-for attempt in $(seq 1 60); do
-    if xdotool search --name 'Autopsy 4.23.1' > build/gui/window-ids.txt 2>/dev/null; then
+for attempt in $(seq 1 180); do
+    if xdotool search --onlyvisible --name 'Autopsy 4.23.1' > "$out/window-ids.txt" 2>/dev/null; then
         found=1
         break
     fi
@@ -25,8 +30,13 @@ done
 test "$found" = 1
 sleep 5
 xdotool key Return
-sleep 5
-xwininfo -root -tree > build/gui/windows.txt
-import -window root build/gui/startup.png
-! grep -E 'UnsupportedClassVersionError|SleuthkitJNI: failed' build/gui/console.log
-echo 'PASS: installed Autopsy GUI started as a non-root user under Xvfb'
+sleep 15
+kill -0 "$app_pid"
+xwininfo -root -tree > "$out/windows.txt"
+import -window root "$out/startup.png"
+log="$XDG_DATA_HOME/autopsy-gui/var/log/messages.log"
+test -s "$log"
+cp "$log" "$out/platform.log"
+! grep -E '^SEVERE|NoClassDefFoundError|ClassNotFoundException.*jdk.swing.interop' "$log"
+! grep -E 'UnsupportedClassVersionError|SleuthkitJNI: failed' "$out/console.log"
+printf '%s\n' 'PASS: uninstrumented launcher, visible GUI, and platform startup log' | tee "$out/PASS"

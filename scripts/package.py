@@ -10,7 +10,7 @@ import tarfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '4.23.1-3'
+VERSION = '4.23.1-4'
 
 
 def main():
