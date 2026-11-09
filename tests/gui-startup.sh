@@ -20,6 +20,10 @@ cleanup() {
 trap cleanup EXIT
 found=0
 for attempt in $(seq 1 180); do
+    # First-use Central Repository information can hide the main frame.
+    if xdotool search --onlyvisible --name '^Information$' >/dev/null 2>&1; then
+        xdotool key Return
+    fi
     if xdotool search --onlyvisible --name 'Autopsy 4.23.1' > "$out/window-ids.txt" 2>/dev/null; then
         found=1
         break

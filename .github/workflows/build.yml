@@ -12,6 +12,19 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+      - name: Fetch the pinned official Autopsy asset through GitHub's API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PYCODE'
+          import json, pathlib, subprocess
+          lock = json.loads(pathlib.Path('versions.lock.json').read_text())['autopsy']
+          tag = lock['url'].split('/releases/download/')[1].split('/')[0]
+          pathlib.Path('.cache').mkdir(exist_ok=True)
+          subprocess.run(['gh', 'release', 'download', tag, '--repo', 'sleuthkit/autopsy',
+                          '--pattern', lock['file'], '--dir', '.cache'], check=True)
+          PYCODE
+          python3 scripts/fetch.py autopsy
       - name: Build image
         run: docker build -t autopsy-gui-builder -f packaging/Dockerfile .
       - name: Build package locally for validation
