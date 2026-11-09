@@ -10,16 +10,20 @@ public final class NativeSmoke {
         if (!version.startsWith("4.15.0")) {
             throw new AssertionError("Unexpected TSK: " + version);
         }
-        Path dir = Files.createTempDirectory("autopsy-native-smoke-");
-        Path db = dir.resolve("case.db");
+        boolean persistent = args.length > 1;
+        Path dir = persistent ? Path.of(args[1]) : Files.createTempDirectory("autopsy QA á ");
+        Files.createDirectories(dir);
+        Path db = dir.resolve("case with spaces.db");
         try {
-            SleuthkitCase created = SleuthkitCase.newCase(db.toString());
-            if (args.length > 0) {
-                var process = created.makeAddImageProcess("UTC", false, false, "");
-                process.run("autopsy-gui-fixture", new String[]{args[0]});
-                process.commit();
+            if (!Files.exists(db)) {
+                SleuthkitCase created = SleuthkitCase.newCase(db.toString());
+                if (args.length > 0) {
+                    var process = created.makeAddImageProcess("UTC", false, false, "");
+                    process.run("autopsy-gui-fixture", new String[]{args[0]});
+                    process.commit();
+                }
+                created.close();
             }
-            created.close();
             if (Files.size(db) == 0) throw new AssertionError("Empty case database");
             SleuthkitCase reopened = SleuthkitCase.openCase(db.toString());
             if (args.length > 0) {
@@ -31,15 +35,17 @@ public final class NativeSmoke {
                 if (read != expected.length || !java.util.Arrays.equals(actual, expected)) {
                     throw new AssertionError("Recovered evidence differs from fixture");
                 }
-                System.out.println("PASS: RAW/ext4 ingest and exact recovered file content");
+                System.out.println("PASS: image ingest/reopen and exact recovered file content: " + args[0]);
             }
             reopened.close();
             System.out.println("PASS: TSK " + version + "; JNI create/reopen SQLite case");
         } finally {
-            try (var paths = Files.list(dir)) {
-                for (Path path : paths.toList()) Files.deleteIfExists(path);
+            if (!persistent) {
+                try (var paths = Files.list(dir)) {
+                    for (Path path : paths.toList()) Files.deleteIfExists(path);
+                }
+                Files.deleteIfExists(dir);
             }
-            Files.deleteIfExists(dir);
         }
     }
 }

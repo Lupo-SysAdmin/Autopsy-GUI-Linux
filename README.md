@@ -13,7 +13,7 @@ Autopsy **4.23.1**, The Sleuth Kit **4.15.0**, and a private Eclipse Temurin **2
 Download the `.deb` and `SHA256SUMS` from a release of this repository. No release URL is provided until publication. Check the package's checksum against the release manifest, then:
 
 ```bash
-sudo apt install ./autopsy-gui_4.23.1-1_amd64.deb
+sudo apt install ./autopsy-gui_4.23.1-2_amd64.deb
 autopsy-gui
 ```
 
@@ -26,6 +26,8 @@ sudo apt remove autopsy-gui
 ```
 
 User settings are in `${XDG_DATA_HOME:-~/.local/share}/autopsy-gui`; cache is in `${XDG_CACHE_HOME:-~/.cache}/autopsy-gui`. Case locations are chosen by the user. Removal does not delete cases or user settings. Default maximum heap is 4 GB; set `AUTOPSY_GUI_HEAP=8G` when appropriate. To request Spanish, launch `autopsy-gui --locale es` (translations depend on upstream).
+
+New profiles disable the Windows-only aLEAPP, iLEAPP and YARA modules. Existing profiles are preserved; if upgrading from revision 1, uncheck these three modules in Configure Ingest and Run Ingest Modules. Solr stores its logs and PID files in the user profile and listens on localhost. See [test instructions](docs/TESTING.md) and the open [redistribution review](docs/REDISTRIBUTION-REVIEW.md).
 
 ## Build
 
@@ -59,4 +61,4 @@ See [architecture and release process](docs/BUILD.md), [credits and licensing](T
 
 Official sources: [Autopsy release](https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.23.1), [Linux instructions](https://github.com/sleuthkit/autopsy/blob/autopsy-4.23.1/Running_Linux_OSX.md), [TSK release](https://github.com/sleuthkit/sleuthkit/releases/tag/sleuthkit-4.15.0).
 
-![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-autopsy-4.23.1.png)
+![Autopsy 4.23.1 running on Kali / Autopsy 4.23.1 en Kali](docs/screenshots/kali-4.23.1-2-keyword.png)

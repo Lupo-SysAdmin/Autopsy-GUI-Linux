@@ -1,0 +1,70 @@
+{
+  "completed_utc": "2026-11-09T04:06:38.829359+00:00",
+  "package": "autopsy-gui_4.23.1-2_amd64.deb",
+  "package_sha256": "440c828dc8d25773fbcdd7c9a07a4979bb3632c1149300b1dc78a2488f49bafe",
+  "architecture": "amd64",
+  "environment": "Official containers inside KVM Ubuntu VM; Xvfb; unprivileged application account",
+  "results": [
+    {
+      "distribution": "Ubuntu 24.04.5",
+      "image": "ubuntu@sha256:fe81560990fae86dc4743202b2cb4d3df98d0bcf949173cecef15ce1127ef852",
+      "exit_code": 0,
+      "result": "PASS",
+      "lifecycle_log_sha256": "7f1b80b3a1e3b332914ebefc8d904295466591196887239e75e561f2b7442661",
+      "packages_sha256": "a7cc07898ab02e1967233b7b6fff9456b3d759bd85ffae7d5c1fb86230721199",
+      "gui_result": "GUI case creation, Linux module defaults, ingest, keyword hit, HTML report: PASS"
+    },
+    {
+      "distribution": "Kali 2026.3",
+      "image": "kalilinux/kali-rolling@sha256:6ec743d9fc5cd397451eeddeff3869bcfab5de9bd5dec5b1f34cbfbd80313073",
+      "exit_code": 0,
+      "result": "PASS",
+      "lifecycle_log_sha256": "a69960ad6630fb13d0716cd26279bf3cb7694b5494f41d739b8b175f0a7653c5",
+      "packages_sha256": "9d6746b315661a4cea0b83ae3c1347981fdb0bbe585be48d0d9fb964d9068785",
+      "gui_result": "GUI case creation, Linux module defaults, ingest, keyword hit, HTML report: PASS"
+    },
+    {
+      "distribution": "Parrot 7.4",
+      "image": "parrotsec/core@sha256:2dcefa48d3c4ae6b1a1a1391ae2a0ae6115a3c194b3677b3f0487f0e3996c9cd",
+      "exit_code": 0,
+      "result": "PASS",
+      "lifecycle_log_sha256": "6ad26246759b7deb1afd8cc05b125df3a14043f7682b4ccdbbbad74aa3cc40d6",
+      "packages_sha256": "9aba98479f49646f0726004e4ddb2298b4f41f41904daccece1f3555b8a6f229",
+      "gui_result": "GUI case creation, Linux module defaults, ingest, keyword hit, HTML report: PASS"
+    }
+  ],
+  "checks": [
+    "clean APT install without Recommends",
+    "legacy Autopsy coexistence",
+    "private TSK/JNI",
+    "exact EXT4, NTFS and E01 recovery",
+    "SQLite case reopen",
+    "paths with spaces and Unicode",
+    "GUI case creation and ingest",
+    "Linux default module selection",
+    "keyword hit evidence.txt",
+    "HTML report contents",
+    "Solr localhost listener",
+    "synthetic Debian revision upgrade",
+    "remove/purge/reinstall",
+    "user case SHA-256 preservation"
+  ],
+  "test_source_sha256": {
+    "tests/GuiProbe.java": "aacbe8d7e2a4612abb0254a0bdebccd91dd93cfe1d62667fde4843e235546c4f",
+    "tests/NativeSmoke.java": "9eca1072bd24a7e66bcb5f02de98c38db1d7934f760705e6ae0bdcb34bd60b56",
+    "tests/container-qa.sh": "e070339704a7a98cffe11151143e96bd52561c3b5a72eb3e3107c9342646c82e",
+    "tests/gui-regression.py": "89fb63fb6bbcf5e511aa8594bf9e89310497b70267f32aaf57ca39a7380aed91",
+    "tests/gui-startup.sh": "3ce73b5aa46dcf8587762827643a2970a14dd019dee59ce05d16fedf62824db9",
+    "tests/installed-data-qa.sh": "ff9ccae5388972705b00e119c7a5b2c646bfa360b4934dec45d0dd9807240ac8",
+    "tests/make-qa-fixtures.sh": "4a6aa06abf124d33eeab069290effc0d68d6e624a9f93b809bfc36b7a0b96d6a"
+  },
+  "stable_binary_release_ready": false,
+  "open_gate": "docs/REDISTRIBUTION-REVIEW.md",
+  "limits": [
+    "No complete desktop/Wayland testing",
+    "No exhaustive optional-module or large-case validation",
+    "Synthetic revision upgrade is not a database format migration",
+    "No remote GitHub Actions run claimed"
+  ],
+  "log_archive": "2026-11-09.logs.tar.gz"
+}

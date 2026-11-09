@@ -29,6 +29,26 @@ cache=${XDG_CACHE_HOME:-$HOME/.cache}/autopsy-gui
 mkdir -p "$data" "$cache"
 mkdir -p "$cache/native"
 chmod 700 "$cache/native"
+# Solr's defaults write beneath /opt; keep runtime state in the user profile.
+export SOLR_LOGS_DIR="$data/var/log/solr"
+export SOLR_PID_DIR="$cache/solr"
+export SOLR_OPTS="${SOLR_OPTS:-} -Djetty.host=127.0.0.1"
+mkdir -p "$SOLR_LOGS_DIR" "$SOLR_PID_DIR"
+chmod 700 "$SOLR_LOGS_DIR" "$SOLR_PID_DIR"
+# Seed only new profiles. Upstream enables Windows-only modules on Linux.
+# An explicit empty enabled list lets Autopsy add remaining loaded modules.
+settings="$data/config/ModuleConfig/IngestSettings"
+mkdir -p "$settings"
+for context in org.sleuthkit.autopsy.casemodule.AddImageWizardIngestConfigPanel org.sleuthkit.autopsy.ingest.RunIngestModulesDialog; do
+    target="$settings/$context.properties"
+    if [[ ! -e "$target" ]]; then
+        ( set -o noclobber
+          printf '%s\n' '# Linux integration: first-use defaults; existing preferences are preserved.' \
+            'Enabled_Ingest_Modules=' \
+            'Disabled_Ingest_Modules=Plaso, Keyword Search, Cyber Triage Malware Scanner, Android Analyzer (aLEAPP), iOS Analyzer (iLEAPP), YARA Analyzer' > "$target"
+        ) 2>/dev/null || [[ -e "$target" ]]
+    fi
+done
 exec "$app/bin/autopsy" --jdkhome "$java_home" \
     --userdir "$data" --cachedir "$cache" \
     -J-Djava.library.path="$app/native" -J-Dtsk.tmpdir="$cache/native" \

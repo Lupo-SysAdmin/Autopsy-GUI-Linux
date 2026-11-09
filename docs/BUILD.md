@@ -13,7 +13,7 @@ The TSK JAR is modified by adding `NATIVELIBS/amd64/linux/libtsk_jni.so` and a m
 5. Test clean installation, upgrade, removal, and coexistence with legacy Autopsy on each target distribution. Dependency ABI differences may require separate builds. Do not label an untested OS supported.
 6. Publish a prerelease only after reviewing validation and third-party redistribution obligations. Upload all `dist/` files, including sources. Attach build logs, dependency inventory, checksums, and the release commit. Signing releases is recommended; hashes alone are not signatures.
 
-GitHub Actions builds on manual dispatch and pushes to `main`; it uploads workflow artifacts and does not publish a release or push changes. Native dependencies come from the builder's distro. Build source is repeatable, but OS dependencies/container tags are not immutable snapshots.
+GitHub Actions builds on manual dispatch and pushes to `main`; it runs the full container suite and uploads QA evidence only. Binary publication is disabled while the redistribution review is open. It does not publish a release or push changes. Native dependencies come from the builder's distro. Build source is repeatable, but OS dependencies/container tags are not immutable snapshots.
 
 ## Español latinoamericano
 
@@ -28,4 +28,4 @@ Se agrega `NATIVELIBS/amd64/linux/libtsk_jni.so` al JAR de TSK junto con un avis
 5. Verifica instalación limpia, actualización, desinstalación y convivencia con Autopsy antiguo en cada distribución. Diferencias de ABI pueden requerir compilaciones separadas. No declares compatible un sistema sin probarlo.
 6. Publica una versión preliminar solo después de revisar las pruebas y obligaciones de redistribución. Adjunta todos los archivos de `dist/`, fuentes incluidas, además de logs, inventario de dependencias, hashes y commit. Los hashes no sustituyen una firma.
 
-GitHub Actions construye manualmente o al hacer push a `main`. Entrega artefactos, sin publicar releases ni modificar el repositorio. Los repositorios del sistema y la etiqueta del contenedor no son snapshots inmutables.
+GitHub Actions construye manualmente o al hacer push a `main`. Ejecuta la suite completa y adjunta solo evidencias de QA. Mientras la revisión de redistribución siga abierta no adjunta el binario. No publica releases ni modifica el repositorio. Los repositorios del sistema y la etiqueta del contenedor no son snapshots inmutables.

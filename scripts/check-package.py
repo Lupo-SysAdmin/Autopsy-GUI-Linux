@@ -5,7 +5,7 @@ from pathlib import Path
 import subprocess
 
 root = Path(__file__).resolve().parents[1]
-package = root / 'dist/autopsy-gui_4.23.1-1_amd64.deb'
+package = root / 'dist/autopsy-gui_4.23.1-2_amd64.deb'
 assert subprocess.check_output(['dpkg-deb', '-f', str(package), 'Package'], text=True).strip() == 'autopsy-gui'
 assert subprocess.check_output(['dpkg-deb', '-f', str(package), 'Architecture'], text=True).strip() == 'amd64'
 listing = subprocess.check_output(['dpkg-deb', '-c', str(package)], text=True)

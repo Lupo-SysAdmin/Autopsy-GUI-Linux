@@ -1,5 +1,23 @@
 # Changelog / Historial de cambios
 
+## 4.23.1-2 — experimental
+
+- Initialize Linux ingest profiles with the three Windows-only modules disabled; preserve existing preferences.
+- Move Solr logs/PID files into the user profile and bind its HTTP listener to localhost.
+- Restore execution permission for the bundled Linux artifact parser and account for its native dependencies.
+- Handle the split PhotoRec package on newer distributions, including installs without Recommends.
+- Add installation/lifecycle, RAW/NTFS/E01 recovery, GUI case/search/HTML-report tests for Ubuntu, Kali and Parrot.
+- Document remaining redistribution review before binary publication.
+
+### Español latinoamericano
+
+- Perfiles nuevos con los tres módulos exclusivos de Windows desactivados; se conservan preferencias existentes.
+- Registros y archivos de proceso de Solr en el perfil del usuario; acceso HTTP limitado a localhost.
+- Permiso de ejecución del analizador auxiliar Linux y comprobación de sus dependencias.
+- Dependencia de PhotoRec adaptada a distribuciones que lo separan de testdisk.
+- Pruebas de instalación, actualización, recuperación e interfaz para Ubuntu, Kali y Parrot.
+- Revisión de redistribución pendiente documentada antes de publicar binarios.
+
 ## 4.23.1-1 — experimental
 
 ### American English

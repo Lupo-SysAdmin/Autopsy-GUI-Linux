@@ -10,7 +10,7 @@ import tarfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '4.23.1-1'
+VERSION = '4.23.1-2'
 
 
 def main():
@@ -62,7 +62,7 @@ def main():
                      if not line.startswith('jdkhome=')) + '\n'
     config.write_text(text.replace('${DEFAULT_USERDIR_ROOT}/dev', '${DEFAULT_USERDIR_ROOT}/4.23')
                       .replace('${DEFAULT_CACHEDIR_ROOT}/dev', '${DEFAULT_CACHEDIR_ROOT}/4.23'))
-    for path in [app / 'bin/autopsy', *(app / 'autopsy/solr/bin').glob('*'),
+    for path in [app / 'bin/autopsy', app / 'autopsy/markmckinnon/mm_artifact_parser_x64_linux', *(app / 'autopsy/solr/bin').glob('*'),
                  *(app / 'autopsy/markmckinnon').glob('export*'),
                  *(app / 'autopsy/markmckinnon').glob('parse*')]:
         if path.is_file():
@@ -81,6 +81,7 @@ def main():
     for name in ['LICENSE', 'NOTICE', 'README.md', 'README.es.md', 'THIRD_PARTY.md', 'versions.lock.json']:
         shutil.copyfile(ROOT / name, doc / name)
     shutil.copytree(ROOT / 'docs', doc / 'docs')
+    subprocess.run(['python3', str(ROOT / 'scripts/inventory-jars.py'), str(app), str(doc / 'jar-inventory.json')], check=True)
     (doc / 'copyright').write_text((ROOT / 'NOTICE').read_text() + '\n' +
                                  (ROOT / 'LICENSE').read_text() + '\n' +
                                  (ROOT / 'THIRD_PARTY.md').read_text())
@@ -107,6 +108,7 @@ def main():
                 with path.open('rb') as stream:
                     if stream.read(4) == b'\x7fELF':
                         elf.append(path)
+    elf.append(app / 'autopsy/markmckinnon/mm_artifact_parser_x64_linux')
     # Check that external shared libraries actually resolve in the builder.
     env = dict(os.environ, LD_LIBRARY_PATH=':'.join(map(str, [
         app / 'native', runtime / 'lib', runtime / 'lib/server'])))
@@ -121,7 +123,7 @@ def main():
     (ROOT / 'build/shlibdeps.log').write_text(result.stderr)
     dependencies = result.stdout.strip().removeprefix('shlibs:Depends=')
     dep_list = dependencies.split(', ')
-    for extra in ['bash', 'libgtk-3-0', 'libxtst6', 'libxi6', 'libxrender1', 'fonts-dejavu-core', 'testdisk']:
+    for extra in ['bash', 'libgtk-3-0', 'libxtst6', 'libxi6', 'libxrender1', 'fonts-dejavu-core', 'photorec | testdisk (<< 7.2-1~)', 'procps', 'lsof']:
         if extra not in {d.split()[0] for d in dep_list}:
             dep_list.append(extra)
     dependencies = ', '.join(dep_list)
