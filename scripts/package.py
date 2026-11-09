@@ -81,6 +81,9 @@ def main():
     for name in ['LICENSE', 'NOTICE', 'README.md', 'README.es.md', 'THIRD_PARTY.md', 'versions.lock.json']:
         shutil.copyfile(ROOT / name, doc / name)
     shutil.copytree(ROOT / 'docs', doc / 'docs')
+    (doc / 'copyright').write_text((ROOT / 'NOTICE').read_text() + '\n' +
+                                 (ROOT / 'LICENSE').read_text() + '\n' +
+                                 (ROOT / 'THIRD_PARTY.md').read_text())
     (doc / 'removed-windows-files.json').write_text(json.dumps(removed, indent=2) + '\n')
     shutil.copytree(ROOT / 'build/sleuthkit-4.15.0/licenses', doc / 'sleuthkit-licenses')
     for name in ['COPYING', 'README.md']:
